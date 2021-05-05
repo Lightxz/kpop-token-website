@@ -1,0 +1,14 @@
+@import "./variables.css";
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: var(--color-black);
+  outline: none;
+}

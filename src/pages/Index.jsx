@@ -1,9 +1,12 @@
 import React from "react";
 
+// Component
+import Navbar from "components/Navbar/Navbar";
+
 const Index = () => {
   return (
     <div>
-      <h1>$KPOP</h1>
+      <Navbar />
     </div>
   );
 };
