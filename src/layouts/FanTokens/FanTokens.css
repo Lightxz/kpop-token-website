@@ -1,0 +1,11 @@
+.fan-tokens-container {
+  border: 2px solid red;
+  padding: 1rem 10rem;
+}
+
+.fan-tokens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

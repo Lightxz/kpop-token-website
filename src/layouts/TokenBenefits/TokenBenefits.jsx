@@ -16,7 +16,10 @@ const TokenBenefits = () => {
  \n\n 1. Grow your $KPOP tokens by just holding them in your wallet. The more you hold, the more you earn! 
  \n\n 2. Stake your $KPOP tokens in our platform and earn additional rewards of (insert percentage) that you can claim on a weekly basis.`}
         />
-        <TokenBenefit title="Passive Income" message="" />
+        <TokenBenefit
+          title="Yield Farming"
+          message="maximize opportunities with $KPOP by staking your fan tokens in our platform and multiply your passive income rewards!"
+        />
         <TokenBenefit
           title="Value Appreciation"
           message="Our vision is to not just enable the fans to purchase products seamlessly. We also aim to add value by allocating a portion of every transaction fee to the liquidity and to the token holders. This feature boosts the token’s economy creating upward price movement."

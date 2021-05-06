@@ -1,0 +1,12 @@
+.fan-token-container {
+  border: 2px solid black;
+  border-radius: 5rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 230px;
+  min-height: 230px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
