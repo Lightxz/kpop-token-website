@@ -3,7 +3,7 @@ import "./Landing.css";
 
 const Landing = () => {
   return (
-    <div className="landing-container">
+    <div id="home" className="landing-container">
       <div className="landing-body">
         {/* PLEASE ADD LOGO HERE FEEL FREE TO RE ORGANIZE LAYOUT BUT CONTENT IS FINAL */}
 

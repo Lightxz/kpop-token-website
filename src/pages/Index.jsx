@@ -16,12 +16,15 @@ const Index = () => {
   return (
     <div>
       <Navbar />
-      {/* <LandingSection />
-      <TokenFeaturesSection />
-      <TokenBenefitsSection />
-      <TokenDistributionSection />
+      <LandingSection />
+      <div id="about">
+        <TokenFeaturesSection />
+        <TokenBenefitsSection />
+        <TokenDistributionSection />
+      </div>
+
       <FanTokensSection />
-      <RoadMapSection /> */}
+      <RoadMapSection />
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ import FanToken from "components/FanToken/FanToken";
 
 const FanTokens = () => {
   return (
-    <div className="fan-tokens-container">
+    <div id="fanTokens" className="fan-tokens-container">
       <h1>Fan Tokens</h1>
 
       <div className="fan-tokens">

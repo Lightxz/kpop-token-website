@@ -6,7 +6,7 @@ import TokenBenefit from "components/TokenBenefit/TokenBenefit";
 
 const TokenBenefits = () => {
   return (
-    <div className="token-benefits-container">
+    <div id="about" className="token-benefits-container">
       <h1>Hurry up! Become a token holder and enjoy these amazing benefits!</h1>
 
       <div className="token-benefits">
