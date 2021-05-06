@@ -1,0 +1,8 @@
+.landing-container {
+  border: 2px solid red;
+}
+
+.landing-body {
+  border: 1px solid black;
+  padding: 1rem 10rem;
+}
