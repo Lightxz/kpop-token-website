@@ -1,8 +1,36 @@
 .landing-container {
-  border: 2px solid red;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
 }
 
 .landing-body {
-  border: 1px solid black;
   padding: 1rem 10rem;
+  color: #fff;
+}
+.landing-body h1 {
+  font-size: 5.5rem;
+  margin-bottom: 40px;
+}
+
+.landing-body p {
+  font-weight: 200;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.landing-body button {
+  font-size: 2rem;
+}
+.buy-now {
+  background-color: #dac86b !important;
+  color: #fff !important;
+  margin-right: 20px;
+  padding: 10px 40px !important;
+}
+.learn-more {
+  color: #fff !important;
+  border-color: #dac86b !important;
+  padding: 10px 30px !important;
 }

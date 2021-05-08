@@ -11,12 +11,16 @@ import TokenBenefitsSection from "layouts/TokenBenefits/TokenBenefits";
 import FanTokensSection from "layouts/FanTokens/FanTokens";
 import TokenDistributionSection from "layouts/TokenDistribution/TokenDistribution";
 import RoadMapSection from "layouts/RoadMap/RoadMap";
+import "./index.css";
 
 const Index = () => {
   return (
     <div>
-      <Navbar />
-      <LandingSection />
+      <div className="section1">
+        <Navbar />
+        <LandingSection />
+      </div>
+
       <div id="about">
         <TokenFeaturesSection />
         <TokenBenefitsSection />

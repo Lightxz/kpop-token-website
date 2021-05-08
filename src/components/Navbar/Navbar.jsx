@@ -1,11 +1,14 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-
+import Logo from "images/logo.png";
 const Navbar = () => {
   return (
     <nav className="navbar-container">
-      <div className="navbar-logo">logo here</div>
+      <div className="navbar-logo">
+        <img src={Logo} />
+        <p className="mb-0">$KPOP</p>
+      </div>
       <div className="navbar-menus">
         <Link
           to="home"

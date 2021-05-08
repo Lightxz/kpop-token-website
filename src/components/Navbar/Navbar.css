@@ -1,17 +1,32 @@
 @import "styles/variables.css";
 
 .navbar-container {
-  background-color: rgba(225, 225, 225, 1);
+  background-color: transparent;
   display: flex;
   align-items: center;
-  padding: 1rem 10rem;
+  padding: 3rem 10rem;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
 
 .navbar-logo {
-  border: 1px solid black;
+  max-width: 200px;
+  width: 100%;
+}
+
+.navbar-logo img {
+  max-width: 25px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.navbar-logo p {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
 }
 
 .navbar-menus {
@@ -23,17 +38,22 @@
 .navbar-menu {
   margin: 0 1rem;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar-links {
+  color: #fff;
 }
 
 .navbar-link {
   margin: 0 0.5rem;
   font-size: 1rem;
+  color: #fff;
 }
 
 .active-navbar-link {
-  color: var(--color-red);
+  padding-bottom: 5px;
+  border-bottom: 2px solid yellow;
 }
