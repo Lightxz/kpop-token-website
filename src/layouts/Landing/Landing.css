@@ -1,8 +1,17 @@
 .landing-container {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
-  padding-bottom: 80px;
+  padding: 4rem 0;
+  padding-top: 6rem;
+  background: linear-gradient(
+      0deg,
+      rgba(46, 49, 49, 0.7),
+      rgba(46, 49, 49, 0.7)
+    ),
+    url("images/sec1-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landing-body {

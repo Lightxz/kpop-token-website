@@ -15,11 +15,11 @@ import "./index.css";
 
 const Index = () => {
   return (
-    <div>
-      <div className="section1">
-        <Navbar />
-        <LandingSection />
-      </div>
+    <div style={{ position: "relative" }}>
+      <Navbar />
+      {/* <div className="section1"> */}
+      <LandingSection />
+      {/* </div> */}
 
       <div id="about">
         <TokenFeaturesSection />

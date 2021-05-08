@@ -1,13 +1,20 @@
 @import "styles/variables.css";
 
-.navbar-container {
+body .navbar-container {
   background-color: transparent;
   display: flex;
   align-items: center;
-  padding: 3rem 10rem;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  padding: 1rem 10rem;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  top: 0;
+}
+
+body .isStickyNav {
+  background-color: red;
 }
 
 .navbar-logo {
@@ -56,4 +63,10 @@
 .active-navbar-link {
   padding-bottom: 5px;
   border-bottom: 2px solid yellow;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
