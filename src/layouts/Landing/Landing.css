@@ -1,15 +1,15 @@
 .landing-container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 4rem 0;
-  padding-top: 6rem;
+  /* padding: 4rem 0;
+  padding-top: 6rem; */
   background: linear-gradient(
       0deg,
       rgba(46, 49, 49, 0.7),
       rgba(46, 49, 49, 0.7)
     ),
-    url("images/sec1-bg.png");
+    url("images/landing-image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
