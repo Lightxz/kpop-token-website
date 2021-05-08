@@ -1,16 +1,21 @@
 @import "styles/variables.css";
 
-body .navbar-container {
+body .navbar-wrapper {
   background-color: transparent;
-  display: flex;
-  align-items: center;
-  padding: 1rem 10rem;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-  top: 0;
+}
+
+body .navbar-container {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 body .isStickyNav {
@@ -33,31 +38,32 @@ body .isStickyNav {
 .navbar-logo p {
   display: inline-block;
   vertical-align: middle;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .navbar-menus {
   display: flex;
   flex: 1;
   justify-content: center;
+  flex-direction: row;
 }
 
 .navbar-menu {
   margin: 0 1rem;
   text-transform: uppercase;
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--color-white);
   text-decoration: none;
 }
 
 .navbar-links {
-  color: #fff;
+  color: var(--color-white);
 }
 
 .navbar-link {
   margin: 0 0.5rem;
   font-size: 1rem;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .active-navbar-link {
@@ -65,8 +71,72 @@ body .isStickyNav {
   border-bottom: 2px solid yellow;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+.navbar-toggle-icon {
+  position: relative;
+  width: 2rem;
+  height: 1px;
+  display: inline-block;
+}
+
+.navbar-toggle-icon::before {
+  top: 0rem;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggle-icon::after {
+  top: 0rem;
+  transform: rotate(135deg);
+}
+
+.navbar-toggle-icon::before,
+.navbar-toggle-icon::after {
+  width: 2rem;
+  height: 1px;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  background-color: var(--color-white);
+  left: 0;
+  transition: all 0.2s;
+}
+
+.navbar-toggler-container {
+  border: none;
+}
+.navbar-toggler-container::focused {
+  box-shadow: none;
+}
+
+.navbar-toggler-container.collapsed .navbar-toggle-icon::before {
+  top: -0.4rem;
+  transform: rotate(0);
+}
+.navbar-toggler-container.collapsed .navbar-toggle-icon::after {
+  top: 0.4rem;
+  transform: rotate(0);
+}
+
+.navbar-toggler-container.collapsed .navbar-toggle-icon,
+.navbar-toggler-container.collapsed .navbar-toggle-icon::before,
+.navbar-toggler-container.collapsed .navbar-toggle-icon::after {
+  width: 2rem;
+  height: 1.5px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-menus {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-menu {
+    margin: 1rem;
+    font-size: 2rem;
   }
 }

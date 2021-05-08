@@ -23,12 +23,12 @@ const Landing = () => {
           </p>
 
           <a href="#">
-            <button type="button" class="btn buy-now">
+            <button type="button" className="btn buy-now">
               Buy Now
             </button>
           </a>
           <a href="#">
-            <button type="button" class="btn learn-more">
+            <button type="button" className="btn learn-more">
               Learn More
             </button>
           </a>
