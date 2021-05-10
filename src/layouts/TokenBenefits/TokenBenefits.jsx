@@ -2,41 +2,161 @@ import React from "react";
 import "./TokenBenefits.css";
 
 // Component
+import Container from "components/Container/Container";
 import TokenBenefit from "components/TokenBenefit/TokenBenefit";
+
+// Bootstrap
+import { Row, Col, Accordion } from "react-bootstrap";
+
+// Icons
+import { Check2 } from "react-bootstrap-icons";
 
 const TokenBenefits = () => {
   return (
     <div id="about" className="token-benefits-container">
-      <h1>Hurry up! Become a token holder and enjoy these amazing benefits!</h1>
+      <Container>
+        <Row>
+          <Col sm={12} lg={6}>
+            <h1 className="token-benefits-title">Hurry up! </h1>
+            <h2 className="token-benefits-description">
+              Become a token holder and enjoy these amazing benefits!
+            </h2>
 
-      <div className="token-benefits">
-        <TokenBenefit
-          title="Passive Income"
-          message={`There are two ways to maximize your earning opportunities 
- \n\n 1. Grow your $KPOP tokens by just holding them in your wallet. The more you hold, the more you earn! 
- \n\n 2. Stake your $KPOP tokens in our platform and earn additional rewards of (insert percentage) that you can claim on a weekly basis.`}
-        />
-        <TokenBenefit
-          title="Yield Farming"
-          message="maximize opportunities with $KPOP by staking your fan tokens in our platform and multiply your passive income rewards!"
-        />
-        <TokenBenefit
-          title="Value Appreciation"
-          message="Our vision is to not just enable the fans to purchase products seamlessly. We also aim to add value by allocating a portion of every transaction fee to the liquidity and to the token holders. This feature boosts the token’s economy creating upward price movement."
-        />
-        <TokenBenefit
-          title="Governance"
-          message="Are you an ARMY? A BLINK? An iGOT7? We hear you and we will to give you what you want! By owning $KPOP tokens, you will have the rights to vote and the influence on which products you want to be released first. "
-        />
-        <TokenBenefit
-          title="Exclusive Benefits "
-          message="As a $KPOP token holder, you will be able to participate in various activities such as giveaways (hottest merchandise, free tokens, concert tickets, trip to Korea), live interaction with your favorite KPOP idol and many more!"
-        />
-        <TokenBenefit
-          title="Global Fandom"
-          message="Break the barriers and keep the KPOP fandom alive and strong! Join us and interact with a global community of KPOP stans!"
-        />
-      </div>
+            <div className="token-benefits">
+              <Accordion defaultActiveKey="0">
+                <div className="accordion-container">
+                  <Accordion.Toggle className="accordion-header" eventKey="0">
+                    <Check2 className="accordion-header-icon" size={35} />{" "}
+                    Passive Income
+                  </Accordion.Toggle>
+                  <Accordion.Collapse
+                    className="accordion-collapse-container"
+                    eventKey="0"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        There are two ways to maximize your earning
+                        opportunities
+                      </p>
+                      <br />
+                      <p>
+                        1. Grow your $KPOP tokens by just holding them in your
+                        wallet. The more you hold, the more you earn!
+                      </p>
+                      <br />
+                      <p>
+                        2. Stake your $KPOP tokens in our platform and earn
+                        additional rewards of (insert percentage) that you can
+                        claim on a weekly basis.
+                      </p>
+                    </div>
+                  </Accordion.Collapse>
+                </div>
+
+                <div className="accordion-container">
+                  <Accordion.Toggle className="accordion-header" eventKey="1">
+                    <Check2 className="accordion-header-icon" size={35} /> Yield
+                    Farming
+                  </Accordion.Toggle>
+                  <Accordion.Collapse
+                    className="accordion-collapse-container"
+                    eventKey="1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        Maximize opportunities with $KPOP by staking your fan
+                        tokens in our platform and multiply your passive income
+                        rewards!
+                      </p>
+                    </div>
+                  </Accordion.Collapse>
+                </div>
+
+                <div className="accordion-container">
+                  <Accordion.Toggle className="accordion-header" eventKey="2">
+                    <Check2 className="accordion-header-icon" size={35} /> Value
+                    Appreciation
+                  </Accordion.Toggle>
+                  <Accordion.Collapse
+                    className="accordion-collapse-container"
+                    eventKey="2"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        Our vision is to not just enable the fans to purchase
+                        products seamlessly. We also aim to add value by
+                        allocating a portion of every transaction fee to the
+                        liquidity and to the token holders. This feature boosts
+                        the token’s economy creating upward price movement.
+                      </p>
+                    </div>
+                  </Accordion.Collapse>
+                </div>
+
+                <div className="accordion-container">
+                  <Accordion.Toggle className="accordion-header" eventKey="3">
+                    <Check2 className="accordion-header-icon" size={35} />
+                    Governance
+                  </Accordion.Toggle>
+                  <Accordion.Collapse
+                    className="accordion-collapse-container"
+                    eventKey="3"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        Are you an ARMY? A BLINK? An iGOT7? We hear you and we
+                        will to give you what you want! By owning $KPOP tokens,
+                        you will have the rights to vote and the influence on
+                        which products you want to be released first.
+                      </p>
+                    </div>
+                  </Accordion.Collapse>
+                </div>
+
+                <div className="accordion-container">
+                  <Accordion.Toggle className="accordion-header" eventKey="4">
+                    <Check2 className="accordion-header-icon" size={35} />
+                    Exclusive Benefits
+                  </Accordion.Toggle>
+                  <Accordion.Collapse
+                    className="accordion-collapse-container"
+                    eventKey="4"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        As a $KPOP token holder, you will be able to participate
+                        in various activities such as giveaways (hottest
+                        merchandise, free tokens, concert tickets, trip to
+                        Korea), live interaction with your favorite KPOP idol
+                        and many more!
+                      </p>
+                    </div>
+                  </Accordion.Collapse>
+                </div>
+
+                <div className="accordion-container">
+                  <Accordion.Toggle className="accordion-header" eventKey="5">
+                    <Check2 className="accordion-header-icon" size={35} />
+                    Global Fandom
+                  </Accordion.Toggle>
+                  <Accordion.Collapse eventKey="5">
+                    <div className="accordion-body">
+                      <p>
+                        Break the barriers and keep the KPOP fandom alive and
+                        strong! Join us and interact with a global community of
+                        KPOP stans!
+                      </p>
+                    </div>
+                  </Accordion.Collapse>
+                </div>
+              </Accordion>
+            </div>
+          </Col>
+          <Col mdHidden lg={6} className="debugger d-none d-lg-block">
+            hello
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

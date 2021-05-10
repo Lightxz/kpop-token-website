@@ -14,7 +14,6 @@ const TokenFeatures = () => {
         <TokenFeature text="MILESTONE BURN" />
         <TokenFeature text="2%-4% tax on Transactions" />
         <TokenFeature text="Passive Yield Farming (PYF)" />
-        <TokenFeature text="Join a global community of KPOP stans" />
       </div>
     </div>
   );

@@ -1,4 +1,58 @@
 .token-benefits-container {
   border: 2px solid red;
-  padding: 1rem 10rem;
+  min-height: 100vh;
+}
+
+.token-benefits-title {
+  font-size: 6rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-primary);
+}
+
+.token-benefits-description {
+  line-height: 130%;
+  font-size: 3.25rem;
+}
+
+.token-benefits {
+  padding: 4rem 0;
+}
+
+.accordion-header-icon {
+  width: 8rem;
+}
+
+.accordion-header {
+  width: 100%;
+  color: var(--color-secondary);
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  text-align: left;
+  background-color: transparent;
+  margin: 1rem 0;
+}
+
+.accordion-header:focus {
+  outline: none;
+}
+
+body .accordion-body {
+  padding: 1rem 0;
+  margin-left: 9rem;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
+}
+
+.accordion-container {
+  padding: 1rem 0;
+  border-bottom: 1px solid #cecece;
+}
+
+.debugger {
+  border: 2px solid red;
 }
