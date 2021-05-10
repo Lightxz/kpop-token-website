@@ -3,13 +3,15 @@ import "./TokenBenefits.css";
 
 // Component
 import Container from "components/Container/Container";
-import TokenBenefit from "components/TokenBenefit/TokenBenefit";
 
 // Bootstrap
 import { Row, Col, Accordion } from "react-bootstrap";
 
 // Icons
 import { Check2 } from "react-bootstrap-icons";
+
+// Image
+import KpopTokenImages from "images/kpop-tokens.svg";
 
 const TokenBenefits = () => {
   return (
@@ -152,8 +154,14 @@ const TokenBenefits = () => {
               </Accordion>
             </div>
           </Col>
-          <Col mdHidden lg={6} className="debugger d-none d-lg-block">
-            hello
+          <Col lg={6} className="d-none d-lg-block">
+            <div className="kpop-tokens-container">
+              <img
+                className="kpop-tokens"
+                src={KpopTokenImages}
+                alt="KPOP Tokens"
+              />
+            </div>
           </Col>
         </Row>
       </Container>

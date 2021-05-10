@@ -1,6 +1,14 @@
 .token-benefits-container {
-  border: 2px solid red;
-  min-height: 100vh;
+  min-height: 80vh;
+  padding: 5rem 0;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.9) 100%
+    ),
+    url("images/token-benefits-background.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .token-benefits-title {
@@ -53,6 +61,13 @@ body .accordion-body {
   border-bottom: 1px solid #cecece;
 }
 
-.debugger {
-  border: 2px solid red;
+.kpop-tokens-container {
+  display: flex;
+  justify-content: center;
+}
+
+.kpop-tokens {
+  margin: 2rem auto;
+  max-width: 500px;
+  width: 100%;
 }
