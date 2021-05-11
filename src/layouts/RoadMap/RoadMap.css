@@ -1,5 +1,7 @@
 .roadmap-container {
   padding: 15rem 20rem;
+  background: url("images/roadmap-background.png"), #050f1c;
+  background-size: cover;
   background-color: #050f1c;
   color: #fff;
 }
