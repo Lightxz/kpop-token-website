@@ -1,4 +1,53 @@
 .roadmap-container {
-  border: 2px solid red;
-  padding: 1rem 10rem;
+  padding: 15rem 20rem;
+  background-color: #050f1c;
+  color: #fff;
+}
+
+.timeline-item {
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom: 1px solid #ee32bc;
+}
+.timeline-item2 {
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+  position: relative;
+  border-left: 1px solid white;
+}
+.timeline-item h3,
+.timeline-item2 h3 {
+  font-size: 2rem;
+}
+
+.timeline-item p,
+.timeline-item2 p {
+  font-size: 1.2rem;
+}
+
+.timeline-item:before,
+.timeline-item:after {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  height: 20px;
+  width: 20px;
+  background: #ee32bc;
+  content: "";
+  border-radius: 50%;
+}
+
+.space {
+  border-bottom: 1px solid #ee32bc;
+}
+
+.end-space {
+  border-left: 0px;
+}
+
+.timelime-item2-col {
+  padding-left: 0 !important;
 }
