@@ -1,8 +1,7 @@
 .token-features-container {
   padding: 10rem;
-  background: url("images/token-features-background.png"), black;
+  background: url("images/token-features-background.png"), #050f1c;
   background-size: cover;
-  background-color: black;
   display: flex;
   align-items: center;
   font-family: "Montserrat", sans-serif;

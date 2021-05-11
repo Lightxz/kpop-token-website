@@ -1,6 +1,8 @@
 .fan-tokens-container {
   border: 2px solid red;
-  padding: 1rem 10rem;
+  padding: 10rem 10rem;
+  background: #050f1c;
+  font-family: "Montserrat", sans-serif;
 }
 
 .fan-tokens {
@@ -8,4 +10,94 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.fan-tokens-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  padding-bottom: 60px;
+}
+
+.fan-token-card {
+  background: #f4f4f4;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.bts-group-container {
+  border-radius: 25px;
+  position: relative;
+}
+
+.bts-group-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    360deg,
+    #000000 -21.01%,
+    rgba(255, 255, 255, 0) 107.97%
+  );
+}
+.bts-group {
+  max-width: fit-content;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.bts {
+  margin-top: -120px;
+  position: relative;
+}
+.bts-name {
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.fan-token-card img:nth-child(2) {
+  max-width: 140px;
+  width: 100%;
+  position: relative;
+  margin-top: -5px;
+}
+
+.card-content {
+  padding: 40px;
+}
+
+.card-text p:first-child {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.card-text p:last-child {
+  font-size: 1.5rem;
+}
+
+.card-text:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.fan-token-row2 {
+  margin-top: 20px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .fan-tokens-container {
+    padding: 10rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .fan-token-card {
+    margin-bottom: 20px;
+  }
 }

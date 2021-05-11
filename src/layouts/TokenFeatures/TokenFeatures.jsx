@@ -12,7 +12,6 @@ import item1 from "images/item-1.svg";
 import item2 from "images/item-2.svg";
 import item3 from "images/item-3.svg";
 import item4 from "images/item-4.svg";
-// import item5 from "images/item-5.svg";
 
 // Components
 import TokenFeature from "components/TokenFeature/TokenFeature";
