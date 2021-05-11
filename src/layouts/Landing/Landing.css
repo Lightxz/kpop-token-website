@@ -1,4 +1,5 @@
 .landing-container {
+  position: relative;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -17,15 +18,44 @@
   font-family: "Montserrat", sans-serif;
 }
 .landing-body h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 40px;
   font-weight: 800;
 }
 
 .landing-body p {
   font-weight: 300;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 40px;
+}
+
+.landing-footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15rem;
+  background: url("images/landing-bottom-image.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.landing-footer-arrow-icon {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.landing-footer-arrow-icon svg {
+  color: var(--color-white);
+}
+
+.landing-footer-arrow-icon:hover {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 1);
+}
+
+.landing-footer-arrow-icon:hover svg {
+  color: var(--color-primary);
 }
 
 .text-emphasize {
@@ -34,7 +64,7 @@
 
 .buy-now-button {
   border: 1px solid white;
-  font-size: 2rem;
+  font-size: 1.75rem;
   background: linear-gradient(
     70deg,
     rgba(201, 63, 171, 1) 10%,
@@ -46,4 +76,20 @@
   padding: 1rem;
   font-weight: 800;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.kpop-token-image-container {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.kpop-token-image {
+  width: 100%;
+  max-width: 480px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing-footer-container {
+    background-position: center;
+  }
 }

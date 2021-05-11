@@ -7,13 +7,19 @@ import Container from "components/Container/Container";
 // Bootstrap
 import { Row, Col } from "react-bootstrap";
 
+// Icons
+import { ArrowDownCircle } from "react-bootstrap-icons";
+
+// Image
+import KpopTokenCards from "images/kpop-token-cards.svg";
+
 const Landing = () => {
   return (
     <div id="home" className="landing-container">
       <Container>
         <div className="landing-body">
           <Row>
-            <Col lg={6}>
+            <Col md={6} lg={5}>
               <h1>A Cryptocurrency Fan Token For The KPOP stans</h1>
               <p>
                 <span className="text-emphasize">$KPOP Fan Tokens </span>give
@@ -39,13 +45,25 @@ const Landing = () => {
                 </button>
               </a>
             </Col>
-            <Col></Col>
-          </Row>
-          <Row>
-            <Col></Col>
+            <Col
+              md={6}
+              lg={7}
+              className="kpop-token-image-container d-none d-md-flex"
+            >
+              <img
+                src={KpopTokenCards}
+                alt="$KPOP tokens"
+                className="kpop-token-image"
+              />
+            </Col>
           </Row>
         </div>
       </Container>
+      <div className="landing-footer-container">
+        <a href="#about" className="landing-footer-arrow-icon">
+          <ArrowDownCircle size={40} />
+        </a>
+      </div>
     </div>
   );
 };

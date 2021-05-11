@@ -23,9 +23,7 @@
   background: #f4f4f4;
   border-radius: 25px;
   text-align: center;
-  width: 100%;
-  max-width: 360px;
-  min-width: 320px;
+  width: 300px;
   overflow: hidden;
   margin: 2.5rem;
 }
@@ -72,7 +70,7 @@
 }
 
 .card-content {
-  padding: 30px;
+  padding: 15px;
 }
 
 .card-text p:first-child {
@@ -85,17 +83,11 @@
 }
 
 .card-text:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
   .fan-tokens-container {
     padding: 10rem 3rem;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .fan-token-card {
-    margin-bottom: 20px;
   }
 }
