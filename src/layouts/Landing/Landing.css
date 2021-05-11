@@ -2,12 +2,10 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  /* padding: 4rem 0;
-  padding-top: 6rem; */
   background: linear-gradient(
-      0deg,
-      rgba(46, 49, 49, 0.7),
-      rgba(46, 49, 49, 0.7)
+      45deg,
+      rgba(207, 62, 133, 1) 20%,
+      rgba(129, 70, 148, 0.9) 90%
     ),
     url("images/landing-image.png");
   background-repeat: no-repeat;
@@ -15,31 +13,37 @@
 }
 
 .landing-body {
-  padding: 1rem 10rem;
-  color: #fff;
+  color: var(--color-white);
+  font-family: "Montserrat", sans-serif;
 }
 .landing-body h1 {
-  font-size: 5.5rem;
+  font-size: 4rem;
   margin-bottom: 40px;
+  font-weight: 800;
 }
 
 .landing-body p {
-  font-weight: 200;
-  font-size: 2.5rem;
+  font-weight: 300;
+  font-size: 1.75rem;
   margin-bottom: 40px;
 }
 
-.landing-body button {
+.text-emphasize {
+  font-weight: 600;
+}
+
+.buy-now-button {
+  border: 1px solid white;
   font-size: 2rem;
-}
-.buy-now {
-  background-color: #dac86b !important;
-  color: #fff !important;
-  margin-right: 20px;
-  padding: 10px 40px !important;
-}
-.learn-more {
-  color: #fff !important;
-  border-color: #dac86b !important;
-  padding: 10px 30px !important;
+  background: linear-gradient(
+    70deg,
+    rgba(201, 63, 171, 1) 10%,
+    rgba(129, 70, 148, 1) 80%
+  );
+  color: #fff;
+  border-radius: 10rem;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 800;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }

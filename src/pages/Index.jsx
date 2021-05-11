@@ -17,12 +17,10 @@ const Index = () => {
   return (
     <div style={{ position: "relative" }}>
       <Navbar />
-      {/* <div className="section1"> */}
       <LandingSection />
-      {/* </div> */}
 
       <div id="about">
-        <TokenFeaturesSection />
+        {/* <TokenFeaturesSection /> */}
         <TokenBenefitsSection />
         <TokenDistributionSection />
       </div>

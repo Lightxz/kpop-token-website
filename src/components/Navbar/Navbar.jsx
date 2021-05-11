@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import Logo from "images/logo.png";
 
 // Bootstrap
 import Navbar from "react-bootstrap/Navbar";
@@ -46,8 +45,7 @@ const NavbarComponent = () => {
       >
         <Navbar.Brand as="span" href="#home">
           <div className="navbar-logo">
-            <img src={Logo} alt="$KPOP" />
-            <p className="mb-0">$KPOP</p>
+            <h3 className="mb-0">$KPOP</h3>
           </div>
         </Navbar.Brand>
 

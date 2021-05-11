@@ -19,7 +19,11 @@ body .navbar-container {
 }
 
 body .isStickyNav {
-  background-color: red;
+  background: linear-gradient(
+    70deg,
+    rgba(201, 63, 171, 1) 20%,
+    rgba(129, 70, 148, 1) 80%
+  );
 }
 
 .navbar-logo {
@@ -54,6 +58,17 @@ body .isStickyNav {
   font-size: 1.5rem;
   color: var(--color-white);
   text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-menu:hover {
+  color: var(--color-white);
+  border-bottom: 3px solid #ff45a0;
+}
+
+.active-navbar-link {
+  padding-bottom: 6px;
+  border-bottom: 3px solid #ff45a0;
 }
 
 .navbar-links {
@@ -66,9 +81,8 @@ body .isStickyNav {
   color: var(--color-white);
 }
 
-.active-navbar-link {
-  padding-bottom: 5px;
-  border-bottom: 2px solid yellow;
+.isHidden {
+  visibility: hidden;
 }
 
 /* Toggle Icon */
@@ -124,7 +138,7 @@ body .isStickyNav {
   border-color: none;
 }
 
-.navbar-toggler::focus {
+.navbar-toggler:focus {
   box-shadow: none !important;
 }
 
@@ -143,5 +157,17 @@ body .isStickyNav {
   .navbar-menu {
     margin: 1rem;
     font-size: 2rem;
+  }
+
+  .navbar-menu:hover {
+    padding-left: 10px;
+    border-bottom: none;
+    border-left: 3px solid #ff45a0;
+  }
+
+  .active-navbar-link {
+    padding-left: 10px;
+    border-bottom: none;
+    border-left: 3px solid #ff45a0;
   }
 }
