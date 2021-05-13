@@ -16,3 +16,9 @@ code {
 html {
   font-size: 10px;
 }
+
+@media (hover: none) {
+  a:hover {
+    color: inherit;
+  }
+}

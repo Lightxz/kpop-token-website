@@ -16,6 +16,7 @@
 .landing-body {
   color: var(--color-white);
   font-family: "Montserrat", sans-serif;
+  z-index: 100;
 }
 .landing-body h1 {
   font-size: 3rem;
@@ -88,8 +89,25 @@
   max-width: 480px;
 }
 
+.landing-oval-overlay {
+  background-image: url("images/landing-oval-overlay.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 1px -75px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1024px) {
   .landing-footer-container {
     background-position: center;
+  }
+
+  .landing-oval-overlay {
+    display: none;
   }
 }

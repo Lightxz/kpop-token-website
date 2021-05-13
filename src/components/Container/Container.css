@@ -3,4 +3,5 @@
   max-width: 1124px;
   margin: 0 auto;
   padding: 1rem 2rem;
+  z-index: 100;
 }

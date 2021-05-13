@@ -16,6 +16,7 @@ import KpopTokenCards from "images/kpop-token-cards.svg";
 const Landing = () => {
   return (
     <div id="home" className="landing-container">
+      <div className="landing-oval-overlay" />
       <Container>
         <div className="landing-body">
           <Row>

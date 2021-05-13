@@ -13,9 +13,6 @@ import item2 from "images/item-2.svg";
 import item3 from "images/item-3.svg";
 import item4 from "images/item-4.svg";
 
-// Components
-import TokenFeature from "components/TokenFeature/TokenFeature";
-
 const TokenFeatures = () => {
   return (
     <div className="token-features-container">
@@ -34,7 +31,7 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img src={item1} />
+                <img alt="1 Billion Supply" src={item1} />
               </div>
               <p class="item-feature">1 Billion Supply</p>
             </div>
@@ -42,7 +39,7 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img src={item2} />
+                <img alt="Milestone Burn" src={item2} />
               </div>
               <p class="item-feature">
                 MILESTONE <br />
@@ -53,7 +50,7 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img src={item3} />
+                <img alt="2%-4% tax on Transactions" src={item3} />
               </div>
               <p class="item-feature">
                 2%-4% tax on <br /> Transactions
@@ -63,7 +60,7 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img src={item4} />
+                <img alt="Passive Yield Farming (PYF)" src={item4} />
               </div>
               <p class="item-feature">
                 Passive Yield <br /> Farming (PYF)

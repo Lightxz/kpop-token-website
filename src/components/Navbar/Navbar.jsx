@@ -5,6 +5,9 @@ import { Link } from "react-scroll";
 // Bootstrap
 import Navbar from "react-bootstrap/Navbar";
 
+// Image
+import KPOPLogo from "images/kpop-logo.png";
+
 const NavbarComponent = () => {
   const [isStickyNav, setIsStickyNav] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -45,7 +48,7 @@ const NavbarComponent = () => {
       >
         <Navbar.Brand as="span" href="#home">
           <div className="navbar-logo">
-            <h3 className="mb-0">$KPOP</h3>
+            <img src={KPOPLogo} alt="$KPOP" />
           </div>
         </Navbar.Brand>
 
@@ -107,28 +110,14 @@ const NavbarComponent = () => {
             >
               ROADMAP
             </Link>
-            <Link
-              to="howToBuy"
-              activeClass="active-navbar-link"
-              spy={true}
-              smooth={true}
-              duration={250}
-              className="navbar-menu"
-              offset={-100}
+            <a
+              href="https://www.google.com/"
+              rel="noreferrer"
+              target="_blank"
+              className="how-to-buy-button"
               onClick={closeCollapsibleMenu}
             >
               HOW TO BUY
-            </Link>
-          </div>
-          <div className="navbar-links">
-            <a className="navbar-link" href="#">
-              Twitter
-            </a>
-            <a className="navbar-link" href="#">
-              Medium
-            </a>
-            <a className="navbar-link" href="#">
-              Telegram
             </a>
           </div>
         </Navbar.Collapse>

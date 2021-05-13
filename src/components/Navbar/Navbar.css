@@ -33,7 +33,7 @@ body .isStickyNav {
 }
 
 .navbar-logo img {
-  max-width: 25px;
+  max-width: 50px;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
@@ -49,8 +49,9 @@ body .isStickyNav {
 .navbar-menus {
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: row;
+  align-items: center;
 }
 
 .navbar-menu {
@@ -68,7 +69,6 @@ body .isStickyNav {
 }
 
 .active-navbar-link {
-  padding-bottom: 6px;
   border-bottom: 3px solid #ff45a0;
 }
 
@@ -79,6 +79,24 @@ body .isStickyNav {
 .navbar-link {
   margin: 0 0.5rem;
   font-size: 1rem;
+  color: var(--color-white);
+}
+
+.how-to-buy-button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: #ff45a0;
+  border-radius: 2rem 2rem;
+  border-bottom: none;
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: var(--color-white) !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.how-to-buy-button:hover {
   color: var(--color-white);
 }
 
@@ -148,6 +166,7 @@ body .isStickyNav {
   .navbar-menus {
     height: 100vh;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 

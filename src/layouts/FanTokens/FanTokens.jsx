@@ -3,7 +3,6 @@ import "./FanTokens.css";
 
 //Components
 import Container from "components/Container/Container";
-import FanToken from "components/FanToken/FanToken";
 
 //Image
 import btsPhoto from "images/BTS-group-photo.png";
@@ -12,17 +11,17 @@ import btsLogo from "images/BTS-token.png";
 const FanTokens = () => {
   return (
     <div id="fanTokens" className="fan-tokens-container">
-      <h1 className="fan-tokens-title">Fan Token</h1>
+      <h1 className="fan-tokens-title">Fan Tokens</h1>
       <Container>
         <div className="fan-tokens">
           <div className="fan-token-card">
             <div className="group-image-container">
-              <img class="group-image" src={btsPhoto} />
+              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
             </div>
 
             <div className="group-name-container">
               <p className="group-name">BTS</p>
-              <img src={btsLogo} />
+              <img alt="$KPOP token" src={btsLogo} />
             </div>
 
             <div className="card-content">
@@ -44,12 +43,12 @@ const FanTokens = () => {
           </div>
           <div className="fan-token-card">
             <div className="group-image-container">
-              <img class="group-image" src={btsPhoto} />
+              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
             </div>
 
             <div className="group-name-container">
               <p className="group-name">BTS</p>
-              <img src={btsLogo} />
+              <img alt="$KPOP token" src={btsLogo} />
             </div>
 
             <div className="card-content">
@@ -71,12 +70,12 @@ const FanTokens = () => {
           </div>
           <div className="fan-token-card">
             <div className="group-image-container">
-              <img class="group-image" src={btsPhoto} />
+              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
             </div>
 
             <div className="group-name-container">
               <p className="group-name">BTS</p>
-              <img src={btsLogo} />
+              <img alt="$KPOP token" src={btsLogo} />
             </div>
 
             <div className="card-content">
@@ -98,12 +97,12 @@ const FanTokens = () => {
           </div>
           <div className="fan-token-card">
             <div className="group-image-container">
-              <img class="group-image" src={btsPhoto} />
+              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
             </div>
 
             <div className="group-name-container">
               <p className="group-name">BTS</p>
-              <img src={btsLogo} />
+              <img alt="$KPOP token" src={btsLogo} />
             </div>
 
             <div className="card-content">
@@ -125,12 +124,12 @@ const FanTokens = () => {
           </div>
           <div className="fan-token-card">
             <div className="group-image-container">
-              <img class="group-image" src={btsPhoto} />
+              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
             </div>
 
             <div className="group-name-container">
               <p className="group-name">BTS</p>
-              <img src={btsLogo} />
+              <img alt="$KPOP token" src={btsLogo} />
             </div>
 
             <div className="card-content">
@@ -152,12 +151,12 @@ const FanTokens = () => {
           </div>
           <div className="fan-token-card">
             <div className="group-image-container">
-              <img class="group-image" src={btsPhoto} />
+              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
             </div>
 
             <div className="group-name-container">
               <p className="group-name">BTS</p>
-              <img src={btsLogo} />
+              <img alt="$KPOP token" src={btsLogo} />
             </div>
 
             <div className="card-content">
