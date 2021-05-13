@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 
+import { Link } from "react-scroll";
+
 // Component
 import Container from "components/Container/Container";
 
@@ -16,7 +18,9 @@ const Footer = () => {
       <Container>
         <div className="footer-body">
           <div className="footer-logo-container">
-            <img src={KPOPlogo} alt="$KPOP" className="footer-logo" />
+            <Link to="home">
+              <img src={KPOPlogo} alt="$KPOP" className="footer-logo" />
+            </Link>
             <p className="footer-credit-message">Copyright © 2021 - $KPOP</p>
           </div>
 
@@ -25,7 +29,7 @@ const Footer = () => {
               <h2 className="footer-links-title">Stay connected:</h2>
               <div className="footer-links">
                 <a
-                  href="https://www.google.com/"
+                  href="https://t.me/KPOPtoken"
                   rel="noreferrer"
                   target="_blank"
                   className="footer-link"
@@ -33,7 +37,7 @@ const Footer = () => {
                   <Telegram className="footer-social-icon" />
                 </a>
                 <a
-                  href="https://www.google.com/"
+                  href="https://twitter.com/KpopToken"
                   rel="noreferrer"
                   target="_blank"
                   className="footer-link"
@@ -41,7 +45,7 @@ const Footer = () => {
                   <Twitter className="footer-social-icon" />
                 </a>
                 <a
-                  href="https://www.google.com/"
+                  href="https://medium.com/@kpopfantoken"
                   rel="noreferrer"
                   target="_blank"
                   className="footer-link"

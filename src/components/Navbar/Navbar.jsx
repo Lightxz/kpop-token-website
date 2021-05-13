@@ -47,9 +47,9 @@ const NavbarComponent = () => {
         className={`navbar-container`}
       >
         <Navbar.Brand as="span" href="#home">
-          <div className="navbar-logo">
+          <Link to="home" className="navbar-logo">
             <img src={KPOPLogo} alt="$KPOP" />
-          </div>
+          </Link>
         </Navbar.Brand>
 
         <Navbar.Toggle
