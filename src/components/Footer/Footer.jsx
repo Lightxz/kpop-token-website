@@ -9,7 +9,6 @@ import KPOPlogo from "images/kpop-logo.png";
 
 // Icons
 import { Twitter, Telegram } from "react-bootstrap-icons";
-import MediumLogo from "images/medium-logo.png";
 
 const Footer = () => {
   return (

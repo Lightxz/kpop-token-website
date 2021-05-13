@@ -1,4 +1,77 @@
 .token-distribution-container {
-  border: 2px solid red;
-  padding: 1rem 10rem;
+  padding: 10rem;
+  background: url("images/token-distribution.png"), #050f1c;
+  background-position: bottom;
+}
+
+.token-distribution-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+.token-distribution-body {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.token-chart {
+  max-width: 530px;
+  width: 100%;
+}
+
+.token-table {
+  max-width: 480px;
+  width: 100%;
+}
+
+.token-chart-legends-container {
+  min-width: 75px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.token-chart-legend {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.token-chart-legend-color {
+  height: 15px;
+  width: 15px !important;
+  border-radius: 50%;
+}
+.token-chart-legend-text {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .token-distribution-body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .token-chart {
+    max-width: 530px;
+    width: 100%;
+    order: 0;
+  }
+  .token-table {
+    margin: 4rem auto3;
+    order: 3;
+  }
+
+  .token-chart-legend {
+    order: 2;
+  }
 }
