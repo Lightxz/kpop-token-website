@@ -10,6 +10,7 @@ import { Row, Col } from "react-bootstrap";
 const RoadMap = () => {
   return (
     <div id="roadmap" className="roadmap-container">
+      <h1 className="roadmap-title">Roadmap</h1>
       {/* 1000px above */}
       <div id="desktop">
         <Container>
@@ -29,18 +30,6 @@ const RoadMap = () => {
 
             <Col lg={4} className="timeline-col">
               <div className="timeline-item">
-                <h3>Q4</h3>
-                <div>
-                  <p>NFT Marketplace </p>
-                  <p>AMAs</p>
-                  <p>Exchange Listings</p>
-                  <p>Digital Products/NFTs</p>
-                </div>
-              </div>
-            </Col>
-
-            <Col lg={3}>
-              <div className="timeline-item">
                 <h3>Q3</h3>
                 <div>
                   <p>Governance</p>
@@ -49,6 +38,18 @@ const RoadMap = () => {
                   <p>$KPOP Mobile App</p>
                   <p>Exchange Listings</p>
                   <p>Partnerships with KPOP Marketplaces</p>
+                </div>
+              </div>
+            </Col>
+
+            <Col lg={3}>
+              <div className="timeline-item">
+                <h3>Q4</h3>
+                <div>
+                  <p>NFT Marketplace </p>
+                  <p>AMAs</p>
+                  <p>Exchange Listings</p>
+                  <p>Digital Products/NFTs</p>
                 </div>
               </div>
             </Col>

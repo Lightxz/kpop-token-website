@@ -6,6 +6,14 @@
   color: #fff;
 }
 
+.roadmap-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  margin-bottom: 8rem;
+}
+
 .timeline-item {
   border-left: 1px solid #fff;
   padding-left: 20px;
@@ -13,8 +21,6 @@
   position: relative;
   border-bottom: 1px solid #ee32bc;
   height: 230px;
-  /* align-content: center;
-  display: grid; */
 }
 
 .timeline-col {
