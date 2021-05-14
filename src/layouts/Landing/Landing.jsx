@@ -13,6 +13,9 @@ import { ArrowDownCircle } from "react-bootstrap-icons";
 // Image
 import KpopTokenCards from "images/kpop-token-cards.svg";
 
+// Libraries
+import { Link } from "react-scroll";
+
 const Landing = () => {
   return (
     <div id="home" className="landing-container">
@@ -61,9 +64,9 @@ const Landing = () => {
         </div>
       </Container>
       <div className="landing-footer-container">
-        <a href="#about" className="landing-footer-arrow-icon">
+        <Link to="about" className="landing-footer-arrow-icon">
           <ArrowDownCircle size={40} />
-        </a>
+        </Link>
       </div>
     </div>
   );
