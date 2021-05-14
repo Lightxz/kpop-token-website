@@ -77,6 +77,19 @@
   padding: 1rem;
   font-weight: 800;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.2s ease;
+}
+
+.buy-now-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 0.8rem rgba(0, 0, 1rem, 0.1);
+}
+
+.buy-now-button:focus {
+  outline: none;
+  transform: scale(1);
 }
 
 .kpop-token-image-container {
