@@ -111,7 +111,7 @@ const NavbarComponent = () => {
               ROADMAP
             </Link>
             <a
-              href="https://www.google.com/"
+              href="https://pancakeswap.finance/"
               rel="noreferrer"
               target="_blank"
               className="how-to-buy-button"

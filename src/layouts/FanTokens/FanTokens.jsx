@@ -3,6 +3,7 @@ import "./FanTokens.css";
 
 //Components
 import Container from "components/Container/Container";
+import FanToken from "components/FanToken/FanToken";
 
 //Image
 import btsPhoto from "images/BTS-group-photo.png";
@@ -14,168 +15,54 @@ const FanTokens = () => {
       <h1 className="fan-tokens-title">Fan Tokens</h1>
       <Container>
         <div className="fan-tokens">
-          <div className="fan-token-card">
-            <div className="group-image-container">
-              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
-            </div>
-
-            <div className="group-name-container">
-              <p className="group-name">BTS</p>
-              <img alt="$KPOP token" src={btsLogo} />
-            </div>
-
-            <div className="card-content">
-              <div className="card-text">
-                <p>FTO Start Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>FTO End Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>Opening Price:</p>
-                <p>TBA</p>
-              </div>
-            </div>
-          </div>
-          <div className="fan-token-card">
-            <div className="group-image-container">
-              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
-            </div>
-
-            <div className="group-name-container">
-              <p className="group-name">BTS</p>
-              <img alt="$KPOP token" src={btsLogo} />
-            </div>
-
-            <div className="card-content">
-              <div className="card-text">
-                <p>FTO Start Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>FTO End Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>Opening Price:</p>
-                <p>TBA</p>
-              </div>
-            </div>
-          </div>
-          <div className="fan-token-card">
-            <div className="group-image-container">
-              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
-            </div>
-
-            <div className="group-name-container">
-              <p className="group-name">BTS</p>
-              <img alt="$KPOP token" src={btsLogo} />
-            </div>
-
-            <div className="card-content">
-              <div className="card-text">
-                <p>FTO Start Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>FTO End Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>Opening Price:</p>
-                <p>TBA</p>
-              </div>
-            </div>
-          </div>
-          <div className="fan-token-card">
-            <div className="group-image-container">
-              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
-            </div>
-
-            <div className="group-name-container">
-              <p className="group-name">BTS</p>
-              <img alt="$KPOP token" src={btsLogo} />
-            </div>
-
-            <div className="card-content">
-              <div className="card-text">
-                <p>FTO Start Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>FTO End Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>Opening Price:</p>
-                <p>TBA</p>
-              </div>
-            </div>
-          </div>
-          <div className="fan-token-card">
-            <div className="group-image-container">
-              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
-            </div>
-
-            <div className="group-name-container">
-              <p className="group-name">BTS</p>
-              <img alt="$KPOP token" src={btsLogo} />
-            </div>
-
-            <div className="card-content">
-              <div className="card-text">
-                <p>FTO Start Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>FTO End Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>Opening Price:</p>
-                <p>TBA</p>
-              </div>
-            </div>
-          </div>
-          <div className="fan-token-card">
-            <div className="group-image-container">
-              <img alt="$KPOP token" class="group-image" src={btsPhoto} />
-            </div>
-
-            <div className="group-name-container">
-              <p className="group-name">BTS</p>
-              <img alt="$KPOP token" src={btsLogo} />
-            </div>
-
-            <div className="card-content">
-              <div className="card-text">
-                <p>FTO Start Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>FTO End Date:</p>
-                <p>TBA</p>
-              </div>
-
-              <div className="card-text">
-                <p>Opening Price:</p>
-                <p>TBA</p>
-              </div>
-            </div>
-          </div>
+          <FanToken
+            image={btsPhoto}
+            logo={btsLogo}
+            name="BTS"
+            startDate="TBA"
+            endDate="TBA"
+            openingPrice="TBA"
+          />
+          <FanToken
+            image={btsPhoto}
+            logo={btsLogo}
+            name="BTS"
+            startDate="TBA"
+            endDate="TBA"
+            openingPrice="TBA"
+          />
+          <FanToken
+            image={btsPhoto}
+            logo={btsLogo}
+            name="BTS"
+            startDate="TBA"
+            endDate="TBA"
+            openingPrice="TBA"
+          />
+          <FanToken
+            image={btsPhoto}
+            logo={btsLogo}
+            name="BTS"
+            startDate="TBA"
+            endDate="TBA"
+            openingPrice="TBA"
+          />
+          <FanToken
+            image={btsPhoto}
+            logo={btsLogo}
+            name="BTS"
+            startDate="TBA"
+            endDate="TBA"
+            openingPrice="TBA"
+          />
+          <FanToken
+            image={btsPhoto}
+            logo={btsLogo}
+            name="BTS"
+            startDate="TBA"
+            endDate="TBA"
+            openingPrice="TBA"
+          />
         </div>
       </Container>
     </div>

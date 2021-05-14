@@ -37,7 +37,7 @@ const Landing = () => {
               </p>
 
               <a
-                href="https://www.google.com/"
+                href="https://pancakeswap.finance/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
