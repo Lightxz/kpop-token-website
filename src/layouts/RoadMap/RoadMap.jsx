@@ -15,7 +15,7 @@ const RoadMap = () => {
         <Container>
           <Row>
             <Col lg={1} className="space"></Col>
-            <Col lg={3}>
+            <Col lg={4} className="timeline-col">
               <div className="timeline-item">
                 <h3>Q2</h3>
                 <div>
@@ -27,7 +27,17 @@ const RoadMap = () => {
               </div>
             </Col>
 
-            <Col lg={3} className="timeline-item end-space"></Col>
+            <Col lg={4} className="timeline-col">
+              <div className="timeline-item">
+                <h3>Q4</h3>
+                <div>
+                  <p>NFT Marketplace </p>
+                  <p>AMAs</p>
+                  <p>Exchange Listings</p>
+                  <p>Digital Products/NFTs</p>
+                </div>
+              </div>
+            </Col>
 
             <Col lg={3}>
               <div className="timeline-item">
@@ -39,24 +49,6 @@ const RoadMap = () => {
                   <p>$KPOP Mobile App</p>
                   <p>Exchange Listings</p>
                   <p>Partnerships with KPOP Marketplaces</p>
-                </div>
-              </div>
-            </Col>
-
-            <Col lg={2} className="timeline-item end-space"></Col>
-          </Row>
-
-          <Row>
-            <Col lg={1}></Col>
-            <Col lg={3}></Col>
-            <Col lg={3} className="timelime-item2-col">
-              <div className="timeline-item2">
-                <h3>Q4</h3>
-                <div>
-                  <p>NFT Marketplace </p>
-                  <p>AMAs</p>
-                  <p>Exchange Listings</p>
-                  <p>Digital Products/NFTs</p>
                 </div>
               </div>
             </Col>
