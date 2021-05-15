@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.062feb73.chunk.css",
+    "main.js": "/static/js/main.6d2cfca8.chunk.js",
+    "main.js.map": "/static/js/main.6d2cfca8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.48dc239d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.48dc239d.js.map",
+    "static/css/2.800be05e.chunk.css": "/static/css/2.800be05e.chunk.css",
+    "static/js/2.c47338e5.chunk.js": "/static/js/2.c47338e5.chunk.js",
+    "static/js/2.c47338e5.chunk.js.map": "/static/js/2.c47338e5.chunk.js.map",
+    "static/js/3.af640a3c.chunk.js": "/static/js/3.af640a3c.chunk.js",
+    "static/js/3.af640a3c.chunk.js.map": "/static/js/3.af640a3c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.062feb73.chunk.css.map": "/static/css/main.062feb73.chunk.css.map",
+    "static/js/2.c47338e5.chunk.js.LICENSE.txt": "/static/js/2.c47338e5.chunk.js.LICENSE.txt",
+    "static/media/BTS-group-photo.195b0897.png": "/static/media/BTS-group-photo.195b0897.png",
+    "static/media/item-1.a788f0ff.svg": "/static/media/item-1.a788f0ff.svg",
+    "static/media/item-2.3e63703f.svg": "/static/media/item-2.3e63703f.svg",
+    "static/media/item-3.dd60da9e.svg": "/static/media/item-3.dd60da9e.svg",
+    "static/media/item-4.917f25dc.svg": "/static/media/item-4.917f25dc.svg",
+    "static/media/kpop-logo.ac514308.png": "/static/media/kpop-logo.ac514308.png",
+    "static/media/kpop-token-cards.07b4f386.svg": "/static/media/kpop-token-cards.07b4f386.svg",
+    "static/media/kpop-tokens.9621d5d3.svg": "/static/media/kpop-tokens.9621d5d3.svg",
+    "static/media/Landing.css": "/static/media/landing-oval-overlay.59a070a7.svg",
+    "static/media/RoadMap.css": "/static/media/roadmap-background.975a845c.png",
+    "static/media/TokenBenefits.css": "/static/media/token-benefits-background.ee02bafe.png",
+    "static/media/token-distribution-chart.71297cec.svg": "/static/media/token-distribution-chart.71297cec.svg",
+    "static/media/token-distribution-table.df244f62.svg": "/static/media/token-distribution-table.df244f62.svg",
+    "static/media/TokenDistribution.css": "/static/media/token-distribution.8662eb95.png",
+    "static/media/TokenFeatures.css": "/static/media/token-features-background.9b56eeae.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48dc239d.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.c47338e5.chunk.js",
+    "static/css/main.062feb73.chunk.css",
+    "static/js/main.6d2cfca8.chunk.js"
+  ]
+}
