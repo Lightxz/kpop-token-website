@@ -17,11 +17,13 @@ const TokenDistribution = () => {
             src={TokenChart}
             alt="Token distribution Chart"
             className="token-chart"
+            placeholder="KPOP Fan token chart"
           />
           <img
             src={TokenTable}
             alt="Token distribution Table"
             className="token-table"
+            placeholder="KPOP Fan token table"
           />
           <div className="token-chart-legends-container">
             <div className="token-chart-legend">
@@ -52,7 +54,7 @@ const TokenDistribution = () => {
                 className="token-chart-legend-color"
                 style={{ backgroundColor: "#3BE0ED" }}
               />
-              <div className="token-chart-legend-text">Reservers</div>
+              <div className="token-chart-legend-text">Reserve</div>
             </div>
             <div className="token-chart-legend">
               <div

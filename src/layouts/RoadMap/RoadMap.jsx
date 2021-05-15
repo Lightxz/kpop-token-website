@@ -10,7 +10,7 @@ import { Row, Col } from "react-bootstrap";
 const RoadMap = () => {
   return (
     <div id="roadmap" className="roadmap-container">
-      <h1 className="roadmap-title">Roadmap</h1>
+      <h1 className="roadmap-title">2021 Roadmap</h1>
       {/* 1000px above */}
       <div id="desktop">
         <Container>
@@ -22,7 +22,7 @@ const RoadMap = () => {
                 <div>
                   <p>Strategic Partnerships</p>
                   <p>Locked Staking</p>
-                  <p>Secure Licenses</p>
+                  <p>Secure Agency Licenses</p>
                   <p>Exclusive Promotions</p>
                 </div>
               </div>
@@ -50,6 +50,7 @@ const RoadMap = () => {
                   <p>AMAs</p>
                   <p>Exchange Listings</p>
                   <p>Digital Products/NFTs</p>
+                  <p>Big Surprise</p>
                 </div>
               </div>
             </Col>

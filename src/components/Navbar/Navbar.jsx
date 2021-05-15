@@ -39,6 +39,16 @@ const NavbarComponent = () => {
         (isStickyNav || isExpanded) && "isStickyNav"
       }`}
     >
+      <div className="announcement-container">
+        <a
+          href="https://bscscan.com/address/0x3ba2b1c2c46200e826c56550ff7a2b29bad10f3d"
+          rel="noreferrer"
+          target="_blank"
+          className="announcement-link"
+        >
+          Official Token Contract
+        </a>
+      </div>
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -48,7 +58,7 @@ const NavbarComponent = () => {
       >
         <Navbar.Brand as="span" href="#home">
           <Link to="home" className="navbar-logo">
-            <img src={KPOPLogo} alt="$KPOP" />
+            <img src={KPOPLogo} alt="$KPOP" placeholder="KPOP Fan token logo" />
           </Link>
         </Navbar.Brand>
 
@@ -111,7 +121,7 @@ const NavbarComponent = () => {
               ROADMAP
             </Link>
             <a
-              href="https://pancakeswap.finance/"
+              href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
               rel="noreferrer"
               target="_blank"
               className="how-to-buy-button"

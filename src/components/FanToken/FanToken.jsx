@@ -6,13 +6,14 @@ const FanToken = (props) => {
   return (
     <div className="fan-token-card">
       <div className="fan-token-coming-soon-overlay">Coming Soon</div>
-      <div className="group-image-container">
-        <img alt="$KPOP token" class="group-image" src={image} />
-      </div>
+      <div
+        className="group-image-container"
+        style={{ backgroundImage: `url(${image})` }}
+      ></div>
 
       <div className="group-name-container">
         <p className="group-name">{name}</p>
-        <img alt="$KPOP token" src={logo} />
+        <img alt="$KPOP token" src={logo} placeholder={name} />
       </div>
 
       <div className="card-content">

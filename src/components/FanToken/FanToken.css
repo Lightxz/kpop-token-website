@@ -3,6 +3,7 @@
   border-radius: 25px;
   text-align: center;
   width: 300px;
+  height: 500px;
   overflow: hidden;
   margin: 2.5rem;
   position: relative;
@@ -37,6 +38,10 @@
 
 .group-image-container {
   position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .group-image-container::after {

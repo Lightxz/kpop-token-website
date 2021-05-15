@@ -40,7 +40,7 @@ const Landing = () => {
               </p>
 
               <a
-                href="https://pancakeswap.finance/"
+                href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -58,6 +58,7 @@ const Landing = () => {
                 src={KpopTokenCards}
                 alt="$KPOP tokens"
                 className="kpop-token-image"
+                placeholder="KPOP Fan Token Cards"
               />
             </Col>
           </Row>

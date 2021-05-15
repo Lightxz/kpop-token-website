@@ -48,8 +48,7 @@ const TokenBenefits = () => {
                       <br />
                       <p>
                         2. Stake your $KPOP tokens in our platform and earn
-                        additional rewards of (insert percentage) that you can
-                        claim on a weekly basis.
+                        rewards that you can claim weekly or monthly basis.
                       </p>
                     </div>
                   </Accordion.Collapse>
@@ -107,9 +106,9 @@ const TokenBenefits = () => {
                     <div className="accordion-body">
                       <p>
                         Are you an ARMY? A BLINK? An iGOT7? We hear you and we
-                        will to give you what you want! By owning $KPOP tokens,
-                        you will have the rights to vote and the influence on
-                        which products you want to be released first.
+                        will give you what you want! By owning $KPOP tokens, you
+                        will have the rights to vote and the influence on which
+                        products you want to be released first.
                       </p>
                     </div>
                   </Accordion.Collapse>
@@ -160,6 +159,7 @@ const TokenBenefits = () => {
                 className="kpop-tokens"
                 src={KpopTokenImages}
                 alt="KPOP Tokens"
+                placeholder="KPOP Fan tokens"
               />
             </div>
           </Col>

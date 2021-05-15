@@ -23,6 +23,11 @@
   height: 230px;
 }
 
+.timeline-item p {
+  font-size: 1.4rem !important;
+  margin-bottom: 7px;
+}
+
 .timeline-col {
   padding-right: 0 !important;
 }

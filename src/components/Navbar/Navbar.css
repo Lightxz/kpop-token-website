@@ -61,6 +61,7 @@ body .isStickyNav {
   color: var(--color-white);
   text-decoration: none;
   font-weight: 500;
+  text-shadow: 0 6px 6px rgb(0, 0, 0, 0.5);
 }
 
 .navbar-menu:hover {
@@ -161,6 +162,20 @@ body .isStickyNav {
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+/* announcement */
+.announcement-container {
+  background-color: #050f1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+}
+
+.announcement-link {
+  font-size: 1.25rem;
+  color: white !important;
 }
 
 /* Responsive styles */

@@ -19,7 +19,12 @@ const Footer = () => {
         <div className="footer-body">
           <div className="footer-logo-container">
             <Link to="home">
-              <img src={KPOPlogo} alt="$KPOP" className="footer-logo" />
+              <img
+                src={KPOPlogo}
+                alt="$KPOP"
+                className="footer-logo"
+                placeholder="KPOP Fan token"
+              />
             </Link>
             <p className="footer-credit-message">Copyright © 2021 - $KPOP</p>
           </div>

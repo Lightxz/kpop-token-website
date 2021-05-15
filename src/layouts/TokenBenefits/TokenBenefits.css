@@ -8,7 +8,8 @@
     ),
     url("images/token-benefits-background.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  display: flex;
 }
 
 .token-benefits-title {
@@ -68,6 +69,5 @@ body .accordion-body {
 
 .kpop-tokens {
   margin: 2rem auto;
-  max-width: 500px;
-  width: 100%;
+  max-width: 700px;
 }

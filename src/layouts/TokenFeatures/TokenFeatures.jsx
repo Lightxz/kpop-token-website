@@ -31,7 +31,11 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img alt="1 Billion Supply" src={item1} />
+                <img
+                  alt="1 Billion Supply"
+                  src={item1}
+                  placeholder="1 Billion Supply"
+                />
               </div>
               <p class="item-feature">1 Billion Supply</p>
             </div>
@@ -39,7 +43,11 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img alt="Milestone Burn" src={item2} />
+                <img
+                  alt="Milestone Burn"
+                  src={item2}
+                  placeholder="KPOP Milestone Burn"
+                />
               </div>
               <p class="item-feature">
                 MILESTONE <br />
@@ -50,7 +58,11 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img alt="2%-4% tax on Transactions" src={item3} />
+                <img
+                  alt="2%-4% tax on Transactions"
+                  src={item3}
+                  placeholder="2%-4% tax on Transactions"
+                />
               </div>
               <p class="item-feature">
                 2%-4% tax on <br /> Transactions
@@ -60,7 +72,11 @@ const TokenFeatures = () => {
           <Col sm={6} lg={3}>
             <div className="item-feature-container">
               <div class="item-circle">
-                <img alt="Passive Yield Farming (PYF)" src={item4} />
+                <img
+                  alt="Passive Yield Farming (PYF)"
+                  src={item4}
+                  placeholder="Passive Yield Farming (PYF)"
+                />
               </div>
               <p class="item-feature">
                 Passive Yield <br /> Farming (PYF)
