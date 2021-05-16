@@ -69,7 +69,7 @@ const RoadMap = () => {
                   <div>
                     <p>Strategic Partnerships</p>
                     <p>Locked Staking</p>
-                    <p>Secure Licenses</p>
+                    <p>Secure Agency Licenses</p>
                     <p>Exclusive Promotions</p>
                   </div>
                 </li>
@@ -99,10 +99,13 @@ const RoadMap = () => {
                 <li className="mobile-timeline-item">
                   <h3>Q4</h3>
                   <div>
-                    <p>NFT Marketplace </p>
-                    <p>AMAs</p>
-                    <p>Exchange Listings</p>
-                    <p>Digital Products/NFTs</p>
+                    <div>
+                      <p>NFT Marketplace </p>
+                      <p>AMAs</p>
+                      <p>Exchange Listings</p>
+                      <p>Digital Products/NFTs</p>
+                      <p>Big Surprise</p>
+                    </div>
                   </div>
                 </li>
               </ul>
