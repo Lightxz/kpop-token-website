@@ -38,7 +38,7 @@ const TokenDistribution = () => {
                 className="token-chart-legend-color"
                 style={{ backgroundColor: "#ED7D31" }}
               />
-              <div className="token-chart-legend-text">Tokens</div>
+              <div className="token-chart-legend-text">Scheduled Burn</div>
             </div>
             <div className="token-chart-legend">
               <div

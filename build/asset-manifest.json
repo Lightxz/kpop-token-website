@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeac833e.chunk.css",
-    "main.js": "/static/js/main.8d17f3b5.chunk.js",
-    "main.js.map": "/static/js/main.8d17f3b5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.48dc239d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.48dc239d.js.map",
+    "main.css": "/static/css/main.c31fa209.chunk.css",
+    "main.js": "/static/js/main.99a0a3a8.chunk.js",
+    "main.js.map": "/static/js/main.99a0a3a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c5bfd389.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c5bfd389.js.map",
     "static/css/2.800be05e.chunk.css": "/static/css/2.800be05e.chunk.css",
-    "static/js/2.c47338e5.chunk.js": "/static/js/2.c47338e5.chunk.js",
-    "static/js/2.c47338e5.chunk.js.map": "/static/js/2.c47338e5.chunk.js.map",
-    "static/js/3.af640a3c.chunk.js": "/static/js/3.af640a3c.chunk.js",
-    "static/js/3.af640a3c.chunk.js.map": "/static/js/3.af640a3c.chunk.js.map",
+    "static/js/2.2f4d5500.chunk.js": "/static/js/2.2f4d5500.chunk.js",
+    "static/js/2.2f4d5500.chunk.js.map": "/static/js/2.2f4d5500.chunk.js.map",
+    "static/js/3.a6a5bf4e.chunk.js": "/static/js/3.a6a5bf4e.chunk.js",
+    "static/js/3.a6a5bf4e.chunk.js.map": "/static/js/3.a6a5bf4e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.800be05e.chunk.css.map": "/static/css/2.800be05e.chunk.css.map",
-    "static/css/main.eeac833e.chunk.css.map": "/static/css/main.eeac833e.chunk.css.map",
-    "static/js/2.c47338e5.chunk.js.LICENSE.txt": "/static/js/2.c47338e5.chunk.js.LICENSE.txt",
+    "static/css/main.c31fa209.chunk.css.map": "/static/css/main.c31fa209.chunk.css.map",
+    "static/js/2.2f4d5500.chunk.js.LICENSE.txt": "/static/js/2.2f4d5500.chunk.js.LICENSE.txt",
     "static/media/BTS-group-photo.195b0897.png": "/static/media/BTS-group-photo.195b0897.png",
     "static/media/EXO-group-photo.e931ea3c.png": "/static/media/EXO-group-photo.e931ea3c.png",
     "static/media/blackpink-group-photo.eaa338e1.png": "/static/media/blackpink-group-photo.eaa338e1.png",
@@ -37,10 +37,10 @@
     "static/media/twice-logo.47a202d7.png": "/static/media/twice-logo.47a202d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48dc239d.js",
+    "static/js/runtime-main.c5bfd389.js",
     "static/css/2.800be05e.chunk.css",
-    "static/js/2.c47338e5.chunk.js",
-    "static/css/main.eeac833e.chunk.css",
-    "static/js/main.8d17f3b5.chunk.js"
+    "static/js/2.2f4d5500.chunk.js",
+    "static/css/main.c31fa209.chunk.css",
+    "static/js/main.99a0a3a8.chunk.js"
   ]
 }

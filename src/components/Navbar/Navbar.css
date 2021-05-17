@@ -171,11 +171,14 @@ body .isStickyNav {
   align-items: center;
   justify-content: center;
   padding: 11px;
+  flex-wrap: wrap;
 }
 
 .announcement-link {
+  min-width: 170px;
   font-size: 1.25rem;
   color: white !important;
+  margin: 5px 0;
 }
 
 /* Responsive styles */

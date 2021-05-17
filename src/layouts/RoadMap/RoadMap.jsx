@@ -59,7 +59,7 @@ const RoadMap = () => {
       </div>
 
       {/* 1000px below */}
-      <div id="mobile-roadmap" class="mob-roadmap">
+      <div id="mobile-roadmap" className="mob-roadmap">
         <Container>
           <Row>
             <Col md={10}>
