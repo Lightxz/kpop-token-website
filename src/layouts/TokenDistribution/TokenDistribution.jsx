@@ -29,32 +29,9 @@ const TokenDistribution = () => {
             <div className="token-chart-legend">
               <div
                 className="token-chart-legend-color"
-                style={{ backgroundColor: "#235FC9" }}
+                style={{ backgroundColor: "#7614AF" }}
               />
-              <div className="token-chart-legend-text">Treasury fund</div>
-            </div>
-            <div className="token-chart-legend">
-              <div
-                className="token-chart-legend-color"
-                style={{ backgroundColor: "#ED7D31" }}
-              />
-              <div className="token-chart-legend-text">Scheduled Burn</div>
-            </div>
-            <div className="token-chart-legend">
-              <div
-                className="token-chart-legend-color"
-                style={{ backgroundColor: "#70AD47" }}
-              />
-              <div className="token-chart-legend-text">
-                Pancakeswap Liquidity
-              </div>
-            </div>
-            <div className="token-chart-legend">
-              <div
-                className="token-chart-legend-color"
-                style={{ backgroundColor: "#3BE0ED" }}
-              />
-              <div className="token-chart-legend-text">Reserve</div>
+              <div className="token-chart-legend-text">Grants and Rewards</div>
             </div>
             <div className="token-chart-legend">
               <div
@@ -66,23 +43,11 @@ const TokenDistribution = () => {
             <div className="token-chart-legend">
               <div
                 className="token-chart-legend-color"
-                style={{ backgroundColor: "#EE32BC" }}
+                style={{ backgroundColor: "#70AD47" }}
               />
-              <div className="token-chart-legend-text">Yield Farming</div>
-            </div>
-            <div className="token-chart-legend">
-              <div
-                className="token-chart-legend-color"
-                style={{ backgroundColor: "#B337F3" }}
-              />
-              <div className="token-chart-legend-text">Team</div>
-            </div>
-            <div className="token-chart-legend">
-              <div
-                className="token-chart-legend-color"
-                style={{ backgroundColor: "#7614AF" }}
-              />
-              <div className="token-chart-legend-text">Grants and Rewards</div>
+              <div className="token-chart-legend-text">
+                Pancakeswap Liquidity
+              </div>
             </div>
             <div className="token-chart-legend">
               <div
@@ -97,6 +62,42 @@ const TokenDistribution = () => {
                 style={{ backgroundColor: "#0045A8" }}
               />
               <div className="token-chart-legend-text">Public Sale</div>
+            </div>
+            <div className="token-chart-legend">
+              <div
+                className="token-chart-legend-color"
+                style={{ backgroundColor: "#3BE0ED" }}
+              />
+              <div className="token-chart-legend-text">Reserve</div>
+            </div>
+            <div className="token-chart-legend">
+              <div
+                className="token-chart-legend-color"
+                style={{ backgroundColor: "#ED7D31" }}
+              />
+              <div className="token-chart-legend-text">Scheduled Burn</div>
+            </div>
+            <div className="token-chart-legend">
+              <div
+                className="token-chart-legend-color"
+                style={{ backgroundColor: "#B337F3" }}
+              />
+              <div className="token-chart-legend-text">Team</div>
+            </div>
+            <div className="token-chart-legend">
+              <div
+                className="token-chart-legend-color"
+                style={{ backgroundColor: "#235FC9" }}
+              />
+              <div className="token-chart-legend-text">Treasury fund</div>
+            </div>
+
+            <div className="token-chart-legend">
+              <div
+                className="token-chart-legend-color"
+                style={{ backgroundColor: "#EE32BC" }}
+              />
+              <div className="token-chart-legend-text">Yield Farming</div>
             </div>
           </div>
         </div>

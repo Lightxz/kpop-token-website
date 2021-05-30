@@ -49,10 +49,7 @@ const TokenFeatures = () => {
                   placeholder="KPOP Milestone Burn"
                 />
               </div>
-              <p className="item-feature">
-                MILESTONE <br />
-                BURN
-              </p>
+              <p className="item-feature">Milestone Burn</p>
             </div>
           </Col>
           <Col sm={6} lg={3}>

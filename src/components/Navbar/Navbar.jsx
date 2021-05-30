@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import moment from "moment";
+// import moment from "moment";
 
 // Bootstrap
 import Navbar from "react-bootstrap/Navbar";
@@ -9,15 +9,17 @@ import Navbar from "react-bootstrap/Navbar";
 // Image
 import KPOPLogo from "images/kpop-logo.png";
 
+// Icon
+// import { MegaphoneFill } from "react-bootstrap-icons";
+
 const NavbarComponent = () => {
   const [isStickyNav, setIsStickyNav] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
-  const [timer, setTimer] = useState("");
-  // const preSaleDate = new Date("Mon May 19 2021 22:00:00 GMT+0800"); //May 19, 2021, 10PM
-  const preSaleDate = new Date("Mon May 19 2021 22:00:00 GMT+0800"); //May 19, 2021, 10PM
+  // const [timer, setTimer] = useState("");
+  // const preSaleDate = new Date("Mon May 21 2021 13:00:00 GMT+0800"); //May 21, 2021, 1PM
 
   useEffect(() => {
-    const timerId = setInterval(() => displayTimer(), 1000);
+    // const timerId = setInterval(() => displayTimer(), 1000);
 
     const scrollCallBack = () => {
       setIsStickyNav(window.pageYOffset > 10);
@@ -27,7 +29,7 @@ const NavbarComponent = () => {
     return () => {
       window.removeEventListener("scroll", scrollCallBack);
       setIsStickyNav(false);
-      clearInterval(timerId);
+      // clearInterval(timerId);
     };
     // eslint-disable-next-line
   }, []);
@@ -40,19 +42,20 @@ const NavbarComponent = () => {
     setIsExpanded(false);
   };
 
-  const displayTimer = () => {
-    const currentDateTime = new Date();
-    const countdownTimer = moment(preSaleDate).diff(moment(currentDateTime));
-    if (countdownTimer === 0) {
-      clearInterval(1);
-      return setTimer(0);
-    }
-    const duration = moment.duration(countdownTimer);
-    const string =
-      Math.floor(duration.asHours()) +
-      moment.utc(countdownTimer).format(":mm:ss");
-    return setTimer(string);
-  };
+  // const displayTimer = () => {
+  //   const currentDateTime = new Date();
+  //   const countdownTimer = moment(preSaleDate).diff(moment(currentDateTime));
+  //   if (countdownTimer <= 0) {
+  //     clearInterval(1);
+  //     return setTimer(0);
+  //   }
+  //   const duration = moment.duration(countdownTimer);
+  //   const string =
+  //     Math.floor(duration.asHours()) +
+  //     moment.utc(countdownTimer).format(":mm:ss");
+  //   return setTimer(string);
+  // };
+
   return (
     <div
       className={`navbar-wrapper ${
@@ -64,16 +67,33 @@ const NavbarComponent = () => {
           href="https://bscscan.com/address/0x3ba2b1c2c46200e826c56550ff7a2b29bad10f3d"
           rel="noreferrer"
           target="_blank"
-          className="announcement-link"
+          className="announcement-link text_underline"
         >
           Official Token Contract
         </a>
+        <a
+          href="https://www.dextools.io/app/pancakeswap/pair-explorer/0x83ca76bdc2e454e362826c25b8f4abd0791bb594"
+          rel="noreferrer"
+          target="_blank"
+          className="announcement-link text_underline"
+        >
+          Official KPOP Chart
+        </a>
 
-        <span className="announcement-link">
-          {timer === 0
-            ? `PRE SALE HAS STARTED`
-            : `Pre Sale starts in: ${timer}`}
-        </span>
+        {/* {timer === 0 ? (
+          <span className="announcement-link">
+            <MegaphoneFill /> PRE SALE HAS ENDED
+          </span>
+        ) : (
+          <a
+            href="https://bscscan.com/address/0x1df41ed76dceb477fd18b173de4b0a563577493a"
+            rel="noreferrer"
+            target="_blank"
+            className="announcement-link text_underline"
+          >
+            <MegaphoneFill /> {`PRE SALE WILL END IN ${timer}`}
+          </a>
+        )} */}
       </div>
       <Navbar
         collapseOnSelect

@@ -24,6 +24,7 @@ const RoadMap = () => {
                   <p>Locked Staking</p>
                   <p>Secure Agency Licenses</p>
                   <p>Exclusive Promotions</p>
+                  <p>KPOP Token Incubator</p>
                 </div>
               </div>
             </Col>

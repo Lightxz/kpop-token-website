@@ -175,10 +175,29 @@ body .isStickyNav {
 }
 
 .announcement-link {
-  min-width: 170px;
+  min-width: 140px;
   font-size: 1.25rem;
   color: white !important;
-  margin: 5px 0;
+  margin: 3px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_underline,
+.text_underline:focus,
+.text_underline:active {
+  text-decoration: underline;
+}
+.text_underline:hover {
+  color: #d03e85 !important;
+}
+
+.announcement-link svg {
+  font-size: 1.5rem;
+  color: #d03e85 !important;
+  margin-right: 5px;
+  transform: rotate3d(0, 0, 1, -20deg);
 }
 
 /* Responsive styles */

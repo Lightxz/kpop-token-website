@@ -10,7 +10,7 @@ import btsPhoto from "images/BTS-group-photo.png";
 import exoPhoto from "images/EXO-group-photo.png";
 import blackpinkPhoto from "images/blackpink-group-photo.png";
 import twicePhoto from "images/twice-group-photo.png";
-import got7Photo from "images/got7-group-photo.png";
+import itzyPhoto from "images/itzy.jpeg";
 import shineePhoto from "images/shinee-group-photo.png";
 
 // logos
@@ -19,7 +19,7 @@ import twiceLogo from "images/twice-logo.png";
 import exoLogo from "images/EXO-logo.png";
 import blackpinkLogo from "images/blackpink-logo.png";
 import shineeLogo from "images/shinee-logo.png";
-import got7Logo from "images/got7-logo.png";
+import itzyLogo from "images/itzy-logo.png";
 
 const FanTokens = () => {
   return (
@@ -60,9 +60,9 @@ const FanTokens = () => {
             openingPrice="TBA"
           />
           <FanToken
-            image={got7Photo}
-            logo={got7Logo}
-            name="GOT7"
+            image={itzyPhoto}
+            logo={itzyLogo}
+            name="ITZY"
             startDate="TBA"
             endDate="TBA"
             openingPrice="TBA"
