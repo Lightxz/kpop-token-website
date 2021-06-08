@@ -167,13 +167,14 @@ const NavbarComponent = () => {
               ROADMAP
             </Link>
             <a
-              href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
+              href="https://app.kpop-digital.com/"
+              // href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
               rel="noreferrer"
               target="_blank"
               className="how-to-buy-button"
               onClick={closeCollapsibleMenu}
             >
-              HOW TO BUY
+              Launch APP
             </a>
           </div>
         </Navbar.Collapse>
