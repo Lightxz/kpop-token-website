@@ -10,7 +10,11 @@ import Container from "components/Container/Container";
 import KPOPlogo from "images/kpop-logo.png";
 
 // Icons
-import { Twitter, Telegram } from "react-bootstrap-icons";
+import { Twitter, Telegram, Youtube } from "react-bootstrap-icons";
+
+// Images
+import geckoLogo from "images/gecko-logo.png";
+import marketCapLogo from "images/market-cap-logo.png";
 
 const Footer = () => {
   return (
@@ -56,6 +60,38 @@ const Footer = () => {
                   className="footer-link"
                 >
                   <span className="footer-social-icon-medium">M</span>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCbAjafnThbqu0bQGSc9m5Sg"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="footer-link"
+                >
+                  <Youtube className="footer-social-icon" />
+                </a>
+                <a
+                  href="https://coinmarketcap.com/currencies/kpop-fan-token/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="footer-link"
+                >
+                  <img
+                    src={marketCapLogo}
+                    alt="marketCap-logo"
+                    className="footer-image"
+                  />
+                </a>
+                <a
+                  href="https://www.coingecko.com/en/coins/kpop-fan-token"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="footer-link"
+                >
+                  <img
+                    src={geckoLogo}
+                    alt="gecko-logo"
+                    className="footer-image"
+                  />
                 </a>
               </div>
             </div>

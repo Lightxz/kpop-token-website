@@ -8,6 +8,8 @@ import Navbar from "react-bootstrap/Navbar";
 
 // Image
 import KPOPLogo from "images/kpop-logo.png";
+import bscanLogo from "images/bscan-logo.jpeg";
+import dextoolsLogo from "images/dextools-logo.png";
 
 // Icon
 // import { MegaphoneFill } from "react-bootstrap-icons";
@@ -67,17 +69,24 @@ const NavbarComponent = () => {
           href="https://bscscan.com/address/0x3ba2b1c2c46200e826c56550ff7a2b29bad10f3d"
           rel="noreferrer"
           target="_blank"
-          className="announcement-link text_underline"
+          className="announcement-link-container"
         >
-          Official Token Contract
+          <img src={bscanLogo} alt="bscan" className="announcement-logo" />
+          <span className="announcement-link text_underline">
+            Official Token Contract
+          </span>
         </a>
+
         <a
           href="https://www.dextools.io/app/pancakeswap/pair-explorer/0x83ca76bdc2e454e362826c25b8f4abd0791bb594"
           rel="noreferrer"
           target="_blank"
-          className="announcement-link text_underline"
+          className="announcement-link-container"
         >
-          Official KPOP Chart
+          <img src={dextoolsLogo} alt="bscan" className="announcement-logo" />
+          <span className="announcement-link text_underline">
+            Official KPOP Chart
+          </span>
         </a>
 
         {/* {timer === 0 ? (
@@ -166,9 +175,18 @@ const NavbarComponent = () => {
             >
               ROADMAP
             </Link>
+
+            <a
+              href="https://www.youtube.com/channel/UCbAjafnThbqu0bQGSc9m5Sg"
+              rel="noreferrer"
+              target="_blank"
+              className="navbar-menu"
+              onClick={closeCollapsibleMenu}
+            >
+              Tutorials
+            </a>
             <a
               href="https://app.kpop-digital.com/"
-              // href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
               rel="noreferrer"
               target="_blank"
               className="how-to-buy-button"

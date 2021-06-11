@@ -58,7 +58,7 @@ body .isStickyNav {
   margin: 0 1rem;
   text-transform: uppercase;
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-white) !important;
   text-decoration: none;
   font-weight: 500;
   text-shadow: 0 6px 6px rgb(0, 0, 0, 0.5);
@@ -177,11 +177,31 @@ body .isStickyNav {
 .announcement-link {
   min-width: 140px;
   font-size: 1.25rem;
-  color: white !important;
   margin: 3px 0;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.announcement-logo {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  background-color: white;
+  margin: 0 0.75rem;
+}
+
+.announcement-link-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.announcement-link-container:hover {
+  color: #d03e85;
 }
 
 .text_underline,
@@ -193,12 +213,12 @@ body .isStickyNav {
   color: #d03e85 !important;
 }
 
-.announcement-link svg {
+/* .announcement-link svg {
   font-size: 1.5rem;
   color: #d03e85 !important;
   margin-right: 5px;
   transform: rotate3d(0, 0, 1, -20deg);
-}
+} */
 
 /* Responsive styles */
 @media only screen and (max-width: 990px) {
