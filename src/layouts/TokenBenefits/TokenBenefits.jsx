@@ -67,7 +67,17 @@ const TokenBenefits = () => {
                       <p>
                         Maximize opportunities with $KPOP by staking your fan
                         tokens in our platform and multiply your passive income
-                        rewards!
+                        rewards!{" "}
+                        <strong>
+                          <a
+                            href="https://kpopfantoken.medium.com/"
+                            rel="noreferrer"
+                            target="_blank"
+                            className="farming-learn-more-link"
+                          >
+                            Learn more
+                          </a>
+                        </strong>
                       </p>
                     </div>
                   </Accordion.Collapse>

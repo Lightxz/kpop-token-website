@@ -71,3 +71,8 @@ body .accordion-body {
   margin: 2rem auto;
   max-width: 700px;
 }
+
+.farming-learn-more-link:hover,
+.farming-learn-more-link:focus {
+  color: #ff45a0;
+}
