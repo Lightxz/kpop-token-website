@@ -10,9 +10,7 @@ import Navbar from "react-bootstrap/Navbar";
 import KPOPLogo from "images/kpop-logo.png";
 import bscanLogo from "images/bscan-logo.jpeg";
 import dextoolsLogo from "images/dextools-logo.png";
-
-// Icon
-// import { MegaphoneFill } from "react-bootstrap-icons";
+import Whitepaper from "assets/kpop-whitepaper.pdf";
 
 const NavbarComponent = () => {
   const [isStickyNav, setIsStickyNav] = useState(false);
@@ -122,7 +120,7 @@ const NavbarComponent = () => {
           className="navbar-toggler-container"
           onClick={toggleCollapsibleMenu}
         >
-          <span className="navbar-toggle-icon">&nbsp;</span>
+          <span className="navbar-toggle-icon"> &nbsp; </span>
         </Navbar.Toggle>
 
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -175,6 +173,16 @@ const NavbarComponent = () => {
             >
               ROADMAP
             </Link>
+
+            <a
+              href={Whitepaper}
+              rel="noreferrer"
+              target="_blank"
+              className="navbar-menu"
+              onClick={closeCollapsibleMenu}
+            >
+              Whitepaper
+            </a>
 
             <a
               href="https://www.youtube.com/channel/UCbAjafnThbqu0bQGSc9m5Sg"

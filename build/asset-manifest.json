@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a8fe4215.chunk.css",
-    "main.js": "/static/js/main.0c5e4f18.chunk.js",
-    "main.js.map": "/static/js/main.0c5e4f18.chunk.js.map",
+    "main.js": "/static/js/main.7476f91a.chunk.js",
+    "main.js.map": "/static/js/main.7476f91a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6a79db03.js",
     "runtime-main.js.map": "/static/js/runtime-main.6a79db03.js.map",
     "static/css/2.800be05e.chunk.css": "/static/css/2.800be05e.chunk.css",
@@ -30,6 +30,7 @@
     "static/media/kpop-logo.ac514308.png": "/static/media/kpop-logo.ac514308.png",
     "static/media/kpop-token-cards.dab6dc57.svg": "/static/media/kpop-token-cards.dab6dc57.svg",
     "static/media/kpop-tokens.5f8c6ba2.svg": "/static/media/kpop-tokens.5f8c6ba2.svg",
+    "static/media/kpop-whitepaper.0c727b3f.pdf": "/static/media/kpop-whitepaper.0c727b3f.pdf",
     "static/media/Landing.css": "/static/media/landing-oval-overlay.59a070a7.svg",
     "static/media/pancakeswap-logo.9117cfa7.jpeg": "/static/media/pancakeswap-logo.9117cfa7.jpeg",
     "static/media/RoadMap.css": "/static/media/roadmap-background.975a845c.png",
@@ -47,6 +48,6 @@
     "static/css/2.800be05e.chunk.css",
     "static/js/2.e56e1892.chunk.js",
     "static/css/main.a8fe4215.chunk.css",
-    "static/js/main.0c5e4f18.chunk.js"
+    "static/js/main.7476f91a.chunk.js"
   ]
 }
