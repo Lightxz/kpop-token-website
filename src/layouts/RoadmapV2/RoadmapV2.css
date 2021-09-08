@@ -1,0 +1,15 @@
+.roadmap-container {
+  padding: 15rem 20rem;
+  background: url("images/roadmap-background.png"), #050f1c;
+  background-size: cover;
+  background-color: #050f1c;
+  color: #fff;
+}
+
+.roadmap-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  margin-bottom: 8rem;
+}

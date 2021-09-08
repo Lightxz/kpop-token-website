@@ -17,6 +17,10 @@ html {
   font-size: 10px;
 }
 
+.app {
+  position: relative;
+}
+
 @media (hover: none) {
   a:hover {
     color: inherit;

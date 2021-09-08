@@ -1,0 +1,74 @@
+.playContainer {
+  position: "relative";
+  background-image: url("../../images/game-preview.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.backgroundOverlay {
+  backdrop-filter: blur(1.1rem) brightness(40%);
+  height: 100vh;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  font-size: 2rem;
+  min-width: max-content;
+  transform: translateX(-50%);
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999999;
+}
+
+.logoTitle,
+.logoTitle:hover {
+  margin: 0;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.logoImage {
+  max-width: 5rem;
+  width: 100%;
+}
+
+.content {
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 2rem;
+}
+
+.descriptionTitle {
+  font-weight: 500;
+  margin-bottom: 4rem;
+  /* text-shadow: 0 0 5px rgba(255, 255, 255, 1); */
+}
+
+@media only screen and (min-width: 800px) {
+  .logoContainer {
+    left: 8rem;
+    transform: translateX(0);
+  }
+
+  .content {
+    padding: 1rem;
+  }
+}

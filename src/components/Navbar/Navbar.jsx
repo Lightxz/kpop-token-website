@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 // import moment from "moment";
 
 // Bootstrap
@@ -173,7 +174,6 @@ const NavbarComponent = () => {
             >
               ROADMAP
             </Link>
-
             <a
               href={Whitepaper}
               rel="noreferrer"
@@ -183,7 +183,6 @@ const NavbarComponent = () => {
             >
               Whitepaper
             </a>
-
             <a
               href="https://www.youtube.com/channel/UCbAjafnThbqu0bQGSc9m5Sg"
               rel="noreferrer"
@@ -193,6 +192,9 @@ const NavbarComponent = () => {
             >
               Tutorials
             </a>
+            <RouterLink to="/play" className="navbar-menu">
+              PLAY
+            </RouterLink>
             <a
               href="https://app.kpop-digital.com/"
               rel="noreferrer"

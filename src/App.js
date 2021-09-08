@@ -1,14 +1,23 @@
+import React from "react";
 import "styles/App.css";
 
-// Pages
-import HomePage from "pages/Index";
+import HomePage from "pages/home";
+import PlayPage from "pages/play";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="container">
-        <HomePage />
-      </header>
+    <div className="App container">
+      <Router>
+        <Switch>
+          <Route exact path="/play">
+            <PlayPage />
+          </Route>
+          <Route path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
