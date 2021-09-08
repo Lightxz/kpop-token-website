@@ -18,7 +18,7 @@ import "./index.css";
 const Index = () => {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <LandingSection />
 
       <div id="about">
@@ -28,8 +28,8 @@ const Index = () => {
         <TokenDistributionSection />
       </div>
 
-      <FanTokensSection /> */}
-      <RoadMapSection />
+      <FanTokensSection />
+      {/* <RoadMapSection /> */}
       <RoadmapV2 />
       <Footer />
     </div>

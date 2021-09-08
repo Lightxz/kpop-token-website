@@ -8,7 +8,7 @@
 }
 
 .backgroundOverlay {
-  backdrop-filter: blur(1.1rem) brightness(40%);
+  backdrop-filter: blur(3rem) brightness(40%);
   height: 100vh;
 }
 
