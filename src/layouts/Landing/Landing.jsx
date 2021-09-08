@@ -11,7 +11,8 @@ import { Row, Col } from "react-bootstrap";
 import { ArrowDownCircle } from "react-bootstrap-icons";
 
 // Image
-import KpopTokenCards from "images/kpop-token-cards.svg";
+// import KpopTokenCards from "images/kpop-token-cards.svg";
+import KpopCards from "images/frame-sample-templates.svg";
 
 // Libraries
 import { Link } from "react-scroll";
@@ -55,7 +56,7 @@ const Landing = () => {
               className="kpop-token-image-container d-none d-md-flex"
             >
               <img
-                src={KpopTokenCards}
+                src={KpopCards}
                 alt="$KPOP tokens"
                 className="kpop-token-image"
                 placeholder="KPOP Fan Token Cards"

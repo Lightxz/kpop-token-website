@@ -1,7 +1,7 @@
 .token-distribution-container {
   padding: 10rem 0;
   background: url("images/token-distribution.png"), #050f1c;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -24,7 +24,7 @@ const Index = () => {
       <div id="about">
         <BannerLinks />
         <TokenFeaturesSection />
-        <TokenBenefitsSection />
+        {/* <TokenBenefitsSection /> */}
         <TokenDistributionSection />
       </div>
 
