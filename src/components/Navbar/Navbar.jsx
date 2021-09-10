@@ -59,9 +59,10 @@ const NavbarComponent = () => {
 
   return (
     <div
-      className={`navbar-wrapper ${
-        (isStickyNav || isExpanded) && "isStickyNav"
-      }`}
+      // className={`navbar-wrapper ${
+      //   (isStickyNav || isExpanded) && "isStickyNav"
+      // }`}
+      className={`navbar-wrapper ${true && "isStickyNav"}`}
     >
       <div className="announcement-container">
         <a

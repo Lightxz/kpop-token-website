@@ -13,12 +13,16 @@ import TokenDistributionSection from "layouts/TokenDistribution/TokenDistributio
 import RoadMapSection from "layouts/RoadMap/RoadMap";
 import BannerLinks from "layouts/BannerLinks/BannerLinks";
 import RoadmapV2 from "layouts/RoadmapV2/RoadmapV2";
+import BannerCarousel from "layouts/BannerCarousel/BannerCarousel";
 import "./index.css";
 
 const Index = () => {
   return (
     <div>
       <Navbar />
+
+      <BannerCarousel />
+
       <LandingSection />
 
       <div id="about">

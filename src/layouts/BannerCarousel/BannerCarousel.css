@@ -1,0 +1,9 @@
+.carouselContainer {
+  margin-top: 14rem;
+}
+
+@media only screen and (min-width: 350px) {
+  .carouselContainer {
+    margin-top: 12rem;
+  }
+}
