@@ -1,0 +1,126 @@
+.mobileAppContainer {
+  background: linear-gradient(
+    45deg,
+    rgba(207, 62, 133, 1) 20%,
+    rgba(129, 70, 148, 0.9) 90%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.mobile-section-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  /* text-shadow: 0 0 1rem rgb(0 0 0); */
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5rem 2rem;
+  align-items: center;
+}
+
+.mockupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appMockup {
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+.downloadNowBtn {
+  max-width: 30rem;
+  width: 100%;
+  border: 1px solid white;
+  font-size: 1.75rem;
+  background: linear-gradient(
+    70deg,
+    rgba(201, 63, 171, 1) 10%,
+    rgba(129, 70, 148, 1) 80%
+  );
+  border-radius: 10rem;
+  padding: 2rem;
+  font-weight: 800;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  text-decoration: none !important;
+  margin-top: 2rem;
+  align-self: center;
+}
+
+.downloadNowBtn:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 0.8rem rgba(0, 0, 1rem, 0.1);
+}
+
+.downloadNowBtn:focus {
+  outline: none;
+  transform: scale(1);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.textTitle {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+.textDescription {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.desktopMockup {
+  display: none;
+}
+
+.mobileMockup {
+  display: inline-flex;
+  align-self: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .contentContainer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+  }
+
+  .desktopMockup {
+    display: block;
+  }
+
+  .mobileMockup {
+    display: none;
+  }
+
+  .textTitle {
+    font-size: 4.5rem;
+  }
+
+  .downloadNowBtn {
+    align-self: flex-start;
+  }
+}

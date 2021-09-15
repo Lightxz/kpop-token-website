@@ -14,6 +14,7 @@ import RoadMapSection from "layouts/RoadMap/RoadMap";
 import BannerLinks from "layouts/BannerLinks/BannerLinks";
 import RoadmapV2 from "layouts/RoadmapV2/RoadmapV2";
 import BannerCarousel from "layouts/BannerCarousel/BannerCarousel";
+import MobileApp from "layouts/MobileApp/MobileApp";
 import "./index.css";
 
 const Index = () => {
@@ -22,12 +23,12 @@ const Index = () => {
       <Navbar />
 
       <BannerCarousel />
-
       <LandingSection />
 
       <div id="about">
         <BannerLinks />
         <TokenFeaturesSection />
+        <MobileApp />
         {/* <TokenBenefitsSection /> */}
         <TokenDistributionSection />
       </div>

@@ -5,6 +5,8 @@ import "./BannerCarousel.css";
 import Image1 from "images/banner1.jpg";
 import Image2 from "images/banner2.jpg";
 import Image3 from "images/banner3.jpg";
+import Image4 from "images/banner4.jpg";
+import Image5 from "images/banner5.jpg";
 
 function BannerCarousel() {
   return (
@@ -26,6 +28,12 @@ function BannerCarousel() {
       </div>
       <div>
         <img src={Image3} />
+      </div>
+      <div>
+        <img src={Image4} />
+      </div>
+      <div>
+        <img src={Image5} />
       </div>
     </Carousel>
   );
