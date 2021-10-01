@@ -2,6 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./BannerCarousel.css";
+import Image0 from "images/banner0.jpg";
 import Image1 from "images/banner1.jpg";
 import Image2 from "images/banner2.jpg";
 import Image3 from "images/banner3.jpg";
@@ -20,6 +21,9 @@ function BannerCarousel() {
       showStatus={false}
       className="carouselContainer"
     >
+      <div>
+        <img src={Image0} />
+      </div>
       <div>
         <img src={Image1} />
       </div>

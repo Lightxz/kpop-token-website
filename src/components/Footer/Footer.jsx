@@ -38,7 +38,7 @@ const Footer = () => {
               <h2 className="footer-links-title">Stay connected:</h2>
               <div className="footer-links">
                 <a
-                  href="https://t.me/KPOPtoken"
+                  href="https://t.me/KFanToken"
                   rel="noreferrer"
                   target="_blank"
                   className="footer-link"

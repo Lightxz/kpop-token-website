@@ -66,7 +66,7 @@ const NavbarComponent = () => {
     >
       <div className="announcement-container">
         <a
-          href="https://bscscan.com/address/0x3ba2b1c2c46200e826c56550ff7a2b29bad10f3d"
+          href="https://bscscan.com/token/0x8efef94ea1b04aa02814f0f5c7a7389dabdb6d6a"
           rel="noreferrer"
           target="_blank"
           className="announcement-link-container"
@@ -77,7 +77,7 @@ const NavbarComponent = () => {
           </span>
         </a>
 
-        <a
+        {/* <a
           href="https://www.dextools.io/app/pancakeswap/pair-explorer/0x83ca76bdc2e454e362826c25b8f4abd0791bb594"
           rel="noreferrer"
           target="_blank"
@@ -87,7 +87,7 @@ const NavbarComponent = () => {
           <span className="announcement-link text_underline">
             Official KPOP Chart
           </span>
-        </a>
+        </a> */}
 
         {/* {timer === 0 ? (
           <span className="announcement-link">

@@ -27,7 +27,7 @@ const BannerLinks = () => {
 
         <div className="banner-links">
           <a
-            href="https://bscscan.com/address/0x3ba2b1c2c46200e826c56550ff7a2b29bad10f3d"
+            href="https://bscscan.com/token/0x8efef94ea1b04aa02814f0f5c7a7389dabdb6d6a"
             rel="noreferrer"
             target="_blank"
           >
@@ -38,7 +38,7 @@ const BannerLinks = () => {
             />
           </a>
           <a
-            href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
+            href="https://pancakeswap.finance/swap?outputCurrency=0x8efef94ea1b04aa02814f0f5c7a7389dabdb6d6a"
             rel="noreferrer"
             target="_blank"
           >
@@ -48,14 +48,14 @@ const BannerLinks = () => {
               className="banner-link-image pancake-bg"
             />
           </a>
-          <a
+          {/* <a
             href="https://www.dextools.io/app/pancakeswap/pair-explorer/0x83ca76bdc2e454e362826c25b8f4abd0791bb594"
             rel="noreferrer"
             target="_blank"
           >
             <img src={DexTools} alt="dextool" className="banner-link-image" />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://coinmarketcap.com/currencies/kpop-fan-token/"
             rel="noreferrer"
             target="_blank"
@@ -65,8 +65,8 @@ const BannerLinks = () => {
               alt="coinMarket"
               className="banner-link-image"
             />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://www.coingecko.com/en/coins/kpop-fan-token"
             rel="noreferrer"
             target="_blank"
@@ -76,9 +76,9 @@ const BannerLinks = () => {
               alt="coin gecko"
               className="banner-link-image"
             />
-          </a>
+          </a> */}
 
-          <a
+          {/* <a
             href="https://www.coinbase.com/price/kpop-fan-token"
             rel="noreferrer"
             target="_blank"
@@ -88,7 +88,7 @@ const BannerLinks = () => {
               alt="coinbase"
               className="banner-link-image object-contain"
             />
-          </a>
+          </a> */}
         </div>
       </Container>
     </div>

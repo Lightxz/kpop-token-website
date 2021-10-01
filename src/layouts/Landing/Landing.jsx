@@ -41,7 +41,7 @@ const Landing = () => {
               </p>
 
               <a
-                href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x3Ba2b1C2c46200e826C56550ff7a2b29bad10F3d"
+                href="https://pancakeswap.finance/swap?outputCurrency=0x8efef94ea1b04aa02814f0f5c7a7389dabdb6d6a"
                 target="_blank"
                 rel="noopener noreferrer"
               >
